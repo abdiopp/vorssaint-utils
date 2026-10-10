@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Počúvajúce porty v tomto počítači",
+  "killProcess.groupCaption": "Zoskupí pomocné procesy, napríklad karty prehliadača, pod inštanciu toho istého programu, ktorá ich spustila.",
+  "win.processes.moreActions": "Ďalšie akcie",
+  "win.processes.protected": "Windows tento proces potrebuje. Odtiaľto ho nemožno ukončiť.",
+  "win.processes.noWindowsNote": "Tento proces nemá okno, ktoré by sa dalo zavrieť, preto sa ukončí okamžite. Neuložená práca v ňom sa stratí.",
+  "win.processes.confirmRestartFormat": "Reštartovať %@?",
+  "win.processes.accessDeniedFormat": "Windows nedovolil aplikácii ukončiť „%@“, pretože beží ako správca alebo pod iným používateľom. Ak ho chcete ukončiť, reštartujte túto aplikáciu ako správca.",
+  "win.processes.relaunchFailedFormat": "Proces %@ sa ukončil, ale nepodarilo sa ho znova spustiť.",
+  "win.processes.adminTitle": "Procesy správcov a iných používateľov",
+  "win.processes.adminNote": "Dajú sa ukončiť len vtedy, keď táto aplikácia beží ako správca.",
+  "win.processes.openInBrowser": "Otvoriť v prehliadači",
+  "win.processes.showUdp": "Zobraziť sokety UDP",
+  "win.processes.showUdpCaption": "UDP nemá stav počúvania, preto sa zobrazujú všetky otvorené sokety UDP."
+}

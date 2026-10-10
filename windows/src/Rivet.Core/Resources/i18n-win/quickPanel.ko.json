@@ -1,0 +1,5 @@
+{
+  "win.quickPanel.shortcutToggle": "빠른 패널을 여는 전역 단축키",
+  "win.quickPanel.toolsTitle": "도구",
+  "win.quickPanel.noTools": "아직 설치된 도구가 없습니다. 기능 허브에서 기능을 설치하면 여기에 표시됩니다."
+}

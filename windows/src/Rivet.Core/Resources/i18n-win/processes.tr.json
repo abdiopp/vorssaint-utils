@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Bu PC’de dinleyen portlar",
+  "killProcess.groupCaption": "Tarayıcı sekmeleri gibi yardımcı işlemleri, onları başlatan aynı programın kopyası altında gruplar.",
+  "win.processes.moreActions": "Diğer eylemler",
+  "win.processes.protected": "Windows bu işleme ihtiyaç duyuyor. Buradan sonlandırılamaz.",
+  "win.processes.noWindowsNote": "Bu işlemin kapatılacak penceresi yok, bu yüzden hemen sonlandırılır. İçindeki kaydedilmemiş çalışmalar kaybolur.",
+  "win.processes.confirmRestartFormat": "%@ yeniden başlatılsın mı?",
+  "win.processes.accessDeniedFormat": "“%@” yönetici olarak veya başka bir kullanıcı olarak çalıştığı için Windows uygulamanın onu sonlandırmasına izin vermedi. Sonlandırmak için bu uygulamayı yönetici olarak yeniden başlat.",
+  "win.processes.relaunchFailedFormat": "%@ kapandı ancak yeniden başlatılamadı.",
+  "win.processes.adminTitle": "Yöneticilerin ve diğer kullanıcıların işlemleri",
+  "win.processes.adminNote": "Bunlar yalnızca bu uygulama yönetici olarak çalışırken sonlandırılabilir.",
+  "win.processes.openInBrowser": "Tarayıcıda aç",
+  "win.processes.showUdp": "UDP soketlerini göster",
+  "win.processes.showUdpCaption": "UDP’nin dinleme durumu yoktur, bu yüzden açık olan her UDP soketi listelenir."
+}

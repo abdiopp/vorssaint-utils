@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Stand-ins for the platform interfaces so the app builds, runs and renders
+       on macOS/Linux during development and in headless UI tests. They never
+       touch the OS beyond opening URLs/files for convenience. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Rivet.Platform.Fake</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rivet.Core\Rivet.Core.csproj" />
+    <ProjectReference Include="..\Rivet.Imaging\Rivet.Imaging.csproj" />
+  </ItemGroup>
+</Project>

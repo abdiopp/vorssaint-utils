@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "Zvuk systému",
+  "win.recordingEditor.showInFolder": "Zobraziť v priečinku",
+  "win.recordingEditor.saveTo": "Uložiť do…",
+  "win.recordingEditor.mp4Unavailable": "Ukladanie videa vyžaduje Windows Media Foundation, ktoré tento počítač nemá (v edíciách Windows N nainštalujte Media Feature Pack). Stále môžete uložiť GIF.",
+  "win.recordingEditor.openFailed": "Túto nahrávku nemožno v tomto počítači prehrať. Uloženie zachová pôvodný videosúbor, aby ste ho mohli otvoriť inde.",
+  "win.recordingEditor.openSample": "Otvoriť ukážkovú nahrávku v editore",
+  "win.recordingEditor.videoFilter": "Video MPEG-4",
+  "win.recordingEditor.imageFilter": "Obrázky",
+  "recorderExport.previewNote": "Platí pre uložené a skopírované video a GIF. Náhľad úprav zostáva na 1×, pôvodná nahrávka sa nemení."
+}

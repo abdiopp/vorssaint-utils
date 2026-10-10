@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Доступ до камери вимкнено в настройках конфіденційності Windows.",
+  "win.cameraPreview.openPrivacySettings": "Відкрити настройки конфіденційності…",
+  "win.cameraPreview.unavailableMessage": "Не вдалося запустити камеру. Спробуйте відкрити її знову.",
+  "win.cameraPreview.retry": "Відкрити камеру",
+  "win.cameraPreview.permissionRequired": "Потрібен дозвіл: камера",
+  "win.cameraPreview.notGranted": "Не надано. Увімкніть «Доступ до камери» та «Дозволити класичним програмам доступ до камери» в настройках Windows.",
+  "win.cameraPreview.chooseCamera": "Вибрати камеру",
+  "win.cameraPreview.shortcutToggle": "Глобальне клавіатурне скорочення",
+  "win.cameraPreview.privacyTitle": "Нічого не записується",
+  "win.cameraPreview.privacyCaption": "Камера працює, лише поки відкрито попередній перегляд, і нічого не зберігається й нікуди не надсилається.",
+  "win.cameraPreview.dismissTitle": "Закриття попереднього перегляду",
+  "win.cameraPreview.dismissCaption": "Натисніть Esc, клацніть будь-де в іншому місці або перейдіть до іншої програми. Індикатор камери одразу згасне."
+}

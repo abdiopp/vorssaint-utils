@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "Нельзя вводить текст в приложение, запущенное от имени администратора.",
+  "win.clipboard.autoClearTitle": "Автоочистка",
+  "win.clipboard.browseApp": "Выбрать программу…",
+  "clipboard.localNote": "Всё остаётся на этом компьютере. Слишком большие элементы игнорируются.",
+  "clipboard.shortcutCaption": "Открывает быстрое окно с поиском, закреплёнными элементами и сочетаниями Ctrl+1–Ctrl+9 для вставки в предыдущее приложение.",
+  "clipboard.shortcutHint": "Щёлкните по карточке, чтобы вставить её в предыдущее приложение. Ctrl+щелчок выбирает несколько; Ctrl+C копирует без вставки.",
+  "clipboard.commandClickShortcut": "Ctrl+щелчок",
+  "Strings.urlCleanerLocalNote": "Локально. Без сети.",
+  "clipboard.autoClearOnSleep": "Очищать буфер обмена при переходе в режим сна"
+}

@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Шукає новіші версії програм на цьому ПК та допомагає завершити кожне оновлення з його першоджерела.",
+  "appUpdates.coverageNote": "Перевіряє каталог winget, Microsoft Store і канали оновлень програм, які їх публікують. Оновлення встановлюються через їхнє першоджерело.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "Включити програми, які може оновити winget",
+  "appUpdates.includeStoreToggle": "Включити програми з Microsoft Store",
+  "appUpdates.includeStoreCaption": "Перевіряє версії в Store через winget для регіону цього ПК. Ці оновлення встановлює Microsoft Store.",
+  "appUpdates.includeOnlineCaption": "Перевіряє канали оновлень програм, які їх публікують, наприклад багатьох програм на Electron. Оновлення встановлює власний механізм оновлення програми.",
+  "appUpdates.openAppStore": "Відкрити Microsoft Store",
+  "appUpdates.storeHint": "Відкриває Microsoft Store, де встановлюється це оновлення",
+  "appUpdates.packageMissing": "winget не встановлено, тому програми поки не можна оновити звідси.",
+  "win.appUpdates.includeWingetCaption": "Перевіряє всі програми, які розпізнає winget, зокрема й ті, що встановлено не через нього. winget встановлює ці оновлення тут; деякі з них запитують дозвіл адміністратора.",
+  "win.appUpdates.lastSource": "Принаймні одне джерело має лишатися ввімкненим.",
+  "win.appUpdates.notificationsOff": "Сповіщення для цієї програми вимкнено в Windows.",
+  "win.appUpdates.confirmTitle": "Оновити вибрані програми?",
+  "win.appUpdates.confirmPackagesFormat": "winget по черзі завантажить і встановить останні версії вибраних програм (%d). Продовжуючи, ви приймаєте їхні ліцензійні угоди.",
+  "win.appUpdates.confirmStoreNote": "Програми з Microsoft Store відкриються в Store, який і встановить їхні оновлення.",
+  "win.appUpdates.idUnresolved": "winget скоротив ідентифікатор цієї програми. Оновіть її з менеджера пакетів."
+}

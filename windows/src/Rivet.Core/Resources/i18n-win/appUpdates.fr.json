@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Cherche des versions plus récentes des apps de ce PC et vous aide à terminer chaque mise à jour depuis sa source d’origine.",
+  "appUpdates.coverageNote": "Vérifie le catalogue de winget, le Microsoft Store et les flux de mise à jour des apps qui en publient un. Les mises à jour s’installent depuis leur source d’origine.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "Inclure les apps que winget peut mettre à jour",
+  "appUpdates.includeStoreToggle": "Inclure les apps du Microsoft Store",
+  "appUpdates.includeStoreCaption": "Vérifie les versions du Store via winget, selon la région de ce PC. Le Microsoft Store installe ces mises à jour.",
+  "appUpdates.includeOnlineCaption": "Vérifie les flux de mise à jour des apps qui en publient un, comme de nombreuses apps Electron. Le programme de mise à jour de l’app installe la mise à jour.",
+  "appUpdates.openAppStore": "Ouvrir le Microsoft Store",
+  "appUpdates.storeHint": "Ouvre le Microsoft Store, où cette mise à jour s’installe",
+  "appUpdates.packageMissing": "winget n’est pas installé, les apps ne peuvent donc pas encore être mises à jour d’ici.",
+  "win.appUpdates.includeWingetCaption": "Vérifie toutes les apps que winget reconnaît, y compris celles qu’il n’a pas installées. winget installe ces mises à jour ici ; certaines demandent l’approbation d’un administrateur.",
+  "win.appUpdates.lastSource": "Au moins une source reste activée.",
+  "win.appUpdates.notificationsOff": "Les notifications sont désactivées pour cette app dans Windows.",
+  "win.appUpdates.confirmTitle": "Mettre à jour les apps sélectionnées ?",
+  "win.appUpdates.confirmPackagesFormat": "winget va télécharger et installer la dernière version de %d apps, l’une après l’autre. En continuant, vous acceptez leurs contrats de licence.",
+  "win.appUpdates.confirmStoreNote": "Les apps du Microsoft Store s’ouvrent dans le Store, qui installe leurs mises à jour.",
+  "win.appUpdates.idUnresolved": "winget a raccourci l’identifiant de cette app. Mettez-la à jour depuis le gestionnaire de paquets."
+}

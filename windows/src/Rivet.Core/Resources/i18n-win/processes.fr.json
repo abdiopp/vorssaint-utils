@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Ports en écoute sur ce PC",
+  "killProcess.groupCaption": "Regroupe les processus auxiliaires, comme les onglets de navigateur, sous l’instance du programme qui les a lancés.",
+  "win.processes.moreActions": "Plus d’actions",
+  "win.processes.protected": "Windows a besoin de ce processus. Il ne peut pas être arrêté d’ici.",
+  "win.processes.noWindowsNote": "Ce processus n’a pas de fenêtre à fermer, il est donc arrêté immédiatement. Le travail non enregistré est perdu.",
+  "win.processes.confirmRestartFormat": "Redémarrer %@ ?",
+  "win.processes.accessDeniedFormat": "Windows n’a pas laissé l’app arrêter « %@ », car il s’exécute en tant qu’administrateur ou sous un autre utilisateur. Redémarrez cette app en tant qu’administrateur pour l’arrêter.",
+  "win.processes.relaunchFailedFormat": "%@ a quitté mais n’a pas pu être relancé.",
+  "win.processes.adminTitle": "Processus des administrateurs et des autres utilisateurs",
+  "win.processes.adminNote": "Ils ne peuvent être arrêtés que si cette app s’exécute en tant qu’administrateur.",
+  "win.processes.openInBrowser": "Ouvrir dans le navigateur",
+  "win.processes.showUdp": "Afficher les sockets UDP",
+  "win.processes.showUdpCaption": "UDP n’a pas d’état d’écoute, donc chaque socket UDP ouvert est listé."
+}

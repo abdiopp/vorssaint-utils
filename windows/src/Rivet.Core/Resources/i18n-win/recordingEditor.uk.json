@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "Системний звук",
+  "win.recordingEditor.showInFolder": "Показати в папці",
+  "win.recordingEditor.saveTo": "Зберегти в…",
+  "win.recordingEditor.mp4Unavailable": "Для збереження відео потрібен Windows Media Foundation, якого на цьому ПК немає (у випусках Windows N установіть Media Feature Pack). Зберегти GIF усе одно можна.",
+  "win.recordingEditor.openFailed": "Цей запис не вдається відтворити на цьому ПК. Під час збереження буде збережено оригінальний відеофайл, тож ви зможете відкрити його деінде.",
+  "win.recordingEditor.openSample": "Відкрити зразок запису в редакторі",
+  "win.recordingEditor.videoFilter": "Відео MPEG-4",
+  "win.recordingEditor.imageFilter": "Зображення",
+  "recorderExport.previewNote": "Застосовується до збереженого та скопійованого відео й GIF. Попередній перегляд під час редагування залишається на швидкості 1×; оригінальний запис не змінюється."
+}

@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "將拖曳的檔案保留在系統匣圖示附近",
+  "Strings.shelfDockMenuBar": "系統匣圖示附近",
+  "win.shelf.dockTray": "系統匣圖示附近",
+  "win.shelf.dropZoneToggle": "將拖曳的檔案保留在系統匣圖示附近",
+  "win.shelf.dropZoneCaption": "拖曳檔案時，系統匣圖示附近（或螢幕頂部置中）會出現一個小暫存架。將指標停在上面即可開啟暫存架；放下的內容會以帶有數量的膠囊形式留在那裡。",
+  "win.shelf.shakeCaption": "拖曳內容時左右快速搖動指標，即可在游標附近叫出暫存架。",
+  "win.shelf.explorerSelection": "使用快捷鍵加入檔案總管中的所選項目",
+  "win.shelf.explorerSelectionCaption": "檔案總管位於前景時，快捷鍵會開啟暫存架並放入所選檔案。未選取任何項目時照常開啟。",
+  "win.shelf.triggersTitle": "開啟方式",
+  "win.shelf.exclusionsCaption": "從這些 App 開始拖曳時，搖動、放置區域和螢幕邊緣探出都不會作用。快捷鍵和「立即開啟」仍可使用。",
+  "win.shelf.addApp": "加入 App…",
+  "win.shelf.applications": "應用程式",
+  "win.shelf.showInExplorer": "在檔案總管中顯示",
+  "win.shelf.expandPile": "展開",
+  "win.shelf.collapsePile": "收合"
+}

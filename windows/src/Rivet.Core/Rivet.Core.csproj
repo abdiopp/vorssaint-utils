@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Platform-neutral core: settings, localization, the feature catalog and
+       runtime, shortcuts, actions, cross-module contracts and the platform
+       service interfaces. No UI framework and no Windows APIs in here. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Rivet.Core</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Strings extracted from the macOS app (all 15 languages) plus the
+         Windows-specific strings each module adds (i18n-win/<module>.<lang>.json). -->
+    <EmbeddedResource Include="Resources\i18n\*.json" LogicalName="i18n/%(Filename)%(Extension)" WithCulture="false" />
+    <EmbeddedResource Include="Resources\i18n-win\*.json" LogicalName="i18n-win/%(Filename)%(Extension)" WithCulture="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Rivet.Core.Tests" />
+  </ItemGroup>
+</Project>

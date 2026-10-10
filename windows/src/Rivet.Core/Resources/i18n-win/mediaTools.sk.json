@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "Tento formát nie je v tomto počítači podporovaný.",
+  "win.mediaTools.unsupported": "Tento formát nie je v tomto počítači podporovaný.",
+  "win.mediaTools.videoUnavailable": "Kódovanie videa nie je k dispozícii. Chýba Windows Media Foundation (v edíciách Windows N nainštalujte Media Feature Pack).",
+  "win.mediaTools.frameUnavailable": "Snímka videa nie je k dispozícii.",
+  "win.mediaTools.ocrUnavailable": "Rozpoznávanie textu nie je k dispozícii. Pridajte jazyk s optickým rozpoznávaním znakov v Nastavení systému Windows › Čas a jazyk › Jazyk a oblasť.",
+  "win.mediaTools.heicMissing": "Ukladanie do HEIC vyžaduje Rozšírenia obrázkov HEIF z Microsoft Store. Vyberte iný formát alebo nainštalujte rozšírenie.",
+  "win.mediaTools.heicHint": "HEIC sa tu objaví po nainštalovaní Rozšírení obrázkov HEIF z Microsoft Store.",
+  "win.mediaTools.notEnoughSpace": "Na disku nie je dosť voľného miesta na otvorenie klipu v editore (500 MB musí ostať voľných).",
+  "win.mediaTools.textFile": "Textový súbor",
+  "win.mediaTools.insertToken": "Vložiť zástupný symbol názvu",
+  "win.mediaTools.previewOutputFormat": "Výstup: %@",
+  "Strings.mediaOpenInFinder": "Zobraziť"
+}

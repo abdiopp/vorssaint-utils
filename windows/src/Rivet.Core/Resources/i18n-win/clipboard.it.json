@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "Impossibile digitare in un’app eseguita come amministratore.",
+  "win.clipboard.autoClearTitle": "Cancellazione automatica",
+  "win.clipboard.browseApp": "Scegli un programma…",
+  "clipboard.localNote": "Tutto resta su questo PC. Gli elementi molto grandi vengono ignorati.",
+  "clipboard.shortcutCaption": "Apre una finestra rapida con ricerca, elementi fissati e scorciatoie da Ctrl+1 a Ctrl+9 per incollare nell’app precedente.",
+  "clipboard.shortcutHint": "Fai clic su una scheda per incollarla nell’app precedente. Ctrl+clic ne seleziona diverse; Ctrl+C copia senza incollare.",
+  "clipboard.commandClickShortcut": "Ctrl+clic",
+  "Strings.urlCleanerLocalNote": "Locale. Senza rete.",
+  "clipboard.autoClearOnSleep": "Svuota gli appunti quando il PC va in sospensione"
+}

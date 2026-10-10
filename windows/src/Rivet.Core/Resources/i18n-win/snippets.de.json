@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Eingabe fügt ein · Esc schließt",
+  "snippets.enableCaption": "Tippe ein Kürzel irgendwo und es wird zu seinem Text. Alles bleibt auf diesem PC.",
+  "snippets.dateTimeStyleLocaleNote": "Ein benannter Stil speichert das Format, das die Region deines PCs jetzt verwendet.",
+  "win.snippets.limitsNote": "Textbausteine werden nie in Passwortfeldern erweitert und erreichen keine Apps, die als Administrator laufen."
+}

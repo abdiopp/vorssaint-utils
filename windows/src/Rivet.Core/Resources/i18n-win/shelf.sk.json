@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "Ponechať ťahané súbory pri ikone v systémovej oblasti",
+  "Strings.shelfDockMenuBar": "Pri ikone v systémovej oblasti",
+  "win.shelf.dockTray": "Pri ikone v systémovej oblasti",
+  "win.shelf.dropZoneToggle": "Ponechať ťahané súbory pri ikone v systémovej oblasti",
+  "win.shelf.dropZoneCaption": "Kým ťaháte súbor, pri ikone v systémovej oblasti (alebo hore v strede) sa objaví malá polica. Prejdite na ňu kurzorom a polica sa otvorí; čokoľvek pustíte, ostane tam ako štítok s počtom.",
+  "win.shelf.shakeCaption": "Kým niečo ťaháte, rýchlo zatraste kurzorom zo strany na stranu a polica sa objaví pri kurzore.",
+  "win.shelf.explorerSelection": "Pridať výber z Prieskumníka skratkou",
+  "win.shelf.explorerSelectionCaption": "Keď je Prieskumník v popredí, skratka otvorí policu už s vybranými súbormi. Ak nie je nič vybraté, otvorí sa ako zvyčajne.",
+  "win.shelf.triggersTitle": "Spôsoby otvorenia",
+  "win.shelf.exclusionsCaption": "Zatrasenie, zóna na pustenie a vysunutie pri okraji obrazovky ostanú vypnuté pri ťahaní spustenom v týchto aplikáciách. Skratka a Otvoriť teraz fungujú ďalej.",
+  "win.shelf.addApp": "Pridať aplikáciu…",
+  "win.shelf.applications": "Aplikácie",
+  "win.shelf.showInExplorer": "Zobraziť v Prieskumníkovi",
+  "win.shelf.expandPile": "Rozbaliť",
+  "win.shelf.collapsePile": "Zbaliť"
+}

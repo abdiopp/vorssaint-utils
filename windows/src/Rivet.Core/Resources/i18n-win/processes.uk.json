@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Порти, що очікують з’єднання на цьому ПК",
+  "killProcess.groupCaption": "Групує допоміжні процеси, як-от вкладки браузера, під тим примірником програми, що їх запустив.",
+  "win.processes.moreActions": "Інші дії",
+  "win.processes.protected": "Цей процес потрібен Windows. Його не можна завершити звідси.",
+  "win.processes.noWindowsNote": "Цей процес не має вікна, яке можна закрити, тому його буде завершено одразу. Незбережені дані в ньому буде втрачено.",
+  "win.processes.confirmRestartFormat": "Перезапустити %@?",
+  "win.processes.accessDeniedFormat": "Windows не дозволила програмі завершити «%@», бо цей процес запущено від імені адміністратора або іншого користувача. Перезапустіть цю програму від імені адміністратора, щоб завершити його.",
+  "win.processes.relaunchFailedFormat": "%@ завершено, але не вдалося запустити знову.",
+  "win.processes.adminTitle": "Процеси адміністраторів та інших користувачів",
+  "win.processes.adminNote": "Їх можна завершити, лише коли ця програма працює від імені адміністратора.",
+  "win.processes.openInBrowser": "Відкрити в браузері",
+  "win.processes.showUdp": "Показувати сокети UDP",
+  "win.processes.showUdpCaption": "UDP не має стану прослуховування, тому показано всі відкриті сокети UDP."
+}

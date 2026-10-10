@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "Uzamkne klávesnicu, aby ste ju mohli bezpečne vyčistiť.",
+  "Strings.cleaningOverlayMouseHint": "Myš a dotykový panel fungujú ďalej",
+  "win.cleaningMode.overlaySubtitle": "Odomknete piatimi stlačeniami Esc",
+  "win.cleaningMode.mouseHint": "Myš a dotykový panel fungujú ďalej",
+  "win.cleaningMode.unlockCaption": "Každé stlačenie musí prísť do 6 sekúnd od predchádzajúceho. Akýkoľvek iný kláves začne odpočítavanie odznova. Môžete aj kliknúť na Odomknúť.",
+  "win.cleaningMode.limitsTitle": "Čo Windows nikdy nedovolí aplikácii zablokovať",
+  "win.cleaningMode.limits": "Ctrl+Alt+Delete a Win+L fungujú ďalej, rovnako ako niektoré klávesy notebooku, ktoré spracúva firmvér (jas, napájanie). Písanie do aplikácií spustených ako správca nemusí byť zablokované.",
+  "win.cleaningMode.howTitle": "Ako to funguje",
+  "win.cleaningMode.couldNotLock": "Klávesnicu sa nepodarilo uzamknúť.",
+  "win.cleaningMode.endedNotResponding": "Režim čistenia sa ukončil, pretože aplikácia prestala reagovať.",
+  "win.cleaningMode.endedHooksLost": "Režim čistenia sa ukončil, pretože Windows prestal aplikácii posielať udalosti klávesnice."
+}

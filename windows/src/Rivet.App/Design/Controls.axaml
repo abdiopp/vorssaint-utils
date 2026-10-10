@@ -1,0 +1,66 @@
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:c="using:Rivet.App.Controls"
+                    xmlns:ic="using:FluentIcons.Avalonia">
+
+  <ControlTheme x:Key="{x:Type c:SettingsRow}" TargetType="c:SettingsRow">
+    <Setter Property="Padding" Value="0,6" />
+    <Setter Property="Template">
+      <ControlTemplate>
+        <Grid ColumnDefinitions="Auto,*,Auto" Margin="{TemplateBinding Padding}" ColumnSpacing="12">
+          <Border Grid.Column="0" Classes="iconTile" VerticalAlignment="Top" Margin="0,1,0,0"
+                  IsVisible="{TemplateBinding Icon, Converter={x:Static ObjectConverters.IsNotNull}}">
+            <ic:SymbolIcon Symbol="{TemplateBinding Icon, Converter={x:Static c:IconConverter.Instance}}"
+                           FontSize="15" Foreground="{DynamicResource AccentBrush}"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" />
+          </Border>
+          <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="2">
+            <TextBlock Text="{TemplateBinding Title}" FontSize="{DynamicResource FontSizeBody}" TextWrapping="Wrap" />
+            <TextBlock Text="{TemplateBinding Description}" Classes="caption"
+                       IsVisible="{TemplateBinding Description, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+          </StackPanel>
+          <ContentPresenter Grid.Column="2" Name="PART_ContentPresenter"
+                            Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}"
+                            VerticalAlignment="Center" HorizontalAlignment="Right" />
+        </Grid>
+      </ControlTemplate>
+    </Setter>
+  </ControlTheme>
+
+  <ControlTheme x:Key="{x:Type c:SettingsCard}" TargetType="c:SettingsCard">
+    <Setter Property="Template">
+      <ControlTemplate>
+        <Border Classes="settingsCard">
+          <StackPanel Spacing="10">
+            <StackPanel Spacing="2" IsVisible="{TemplateBinding Header, Converter={x:Static ObjectConverters.IsNotNull}}">
+              <ContentPresenter Content="{TemplateBinding Header}">
+                <ContentPresenter.DataTemplates>
+                  <DataTemplate DataType="x:String">
+                    <TextBlock Text="{Binding}" Classes="cardTitle" />
+                  </DataTemplate>
+                </ContentPresenter.DataTemplates>
+              </ContentPresenter>
+              <TextBlock Text="{TemplateBinding Description}" Classes="caption"
+                         IsVisible="{TemplateBinding Description, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+            </StackPanel>
+            <ContentPresenter Name="PART_ContentPresenter" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" />
+          </StackPanel>
+        </Border>
+      </ControlTemplate>
+    </Setter>
+  </ControlTheme>
+
+  <ControlTheme x:Key="{x:Type c:PageHeader}" TargetType="c:PageHeader">
+    <Setter Property="Margin" Value="0,0,0,4" />
+    <Setter Property="Template">
+      <ControlTemplate>
+        <StackPanel Spacing="4">
+          <TextBlock Text="{TemplateBinding Title}" Classes="pageTitle" />
+          <TextBlock Text="{TemplateBinding Description}" Classes="caption" FontSize="13"
+                     IsVisible="{TemplateBinding Description, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+        </StackPanel>
+      </ControlTemplate>
+    </Setter>
+  </ControlTheme>
+</ResourceDictionary>

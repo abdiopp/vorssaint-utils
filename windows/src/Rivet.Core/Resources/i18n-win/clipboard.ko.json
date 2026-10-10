@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "관리자 권한으로 실행 중인 앱에는 입력할 수 없습니다.",
+  "win.clipboard.autoClearTitle": "자동 지우기",
+  "win.clipboard.browseApp": "프로그램 선택…",
+  "clipboard.localNote": "모든 항목은 이 PC에만 저장됩니다. 너무 큰 항목은 무시됩니다.",
+  "clipboard.shortcutCaption": "검색, 고정 항목 및 이전 앱에 붙여넣기 위한 Ctrl+1~Ctrl+9 단축키가 있는 빠른 창을 엽니다.",
+  "clipboard.shortcutHint": "카드를 클릭하면 이전 앱에 붙여넣습니다. Ctrl-클릭으로 여러 항목을 선택하고, Ctrl+C로 붙여넣지 않고 복사합니다.",
+  "clipboard.commandClickShortcut": "Ctrl+클릭",
+  "Strings.urlCleanerLocalNote": "로컬 처리. 네트워크 없음.",
+  "clipboard.autoClearOnSleep": "PC가 절전 모드로 전환될 때 클립보드 지우기"
+}

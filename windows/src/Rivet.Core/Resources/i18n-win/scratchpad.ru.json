@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Закрывать при щелчке снаружи",
+  "win.scratchpad.alwaysOnTop": "Поверх других окон",
+  "win.scratchpad.alwaysOnTopCaption": "Блокнот остаётся поверх всех приложений, пока вы его не закроете.",
+  "win.scratchpad.appearanceTitle": "Оформление",
+  "win.scratchpad.shortcutToggle": "Глобальное сочетание клавиш",
+  "win.scratchpad.find": "Найти",
+  "win.scratchpad.findNext": "Следующее совпадение (F3)",
+  "win.scratchpad.findPrevious": "Предыдущее совпадение (Shift+F3)",
+  "win.scratchpad.replace": "Заменить",
+  "win.scratchpad.replaceAll": "Заменить все",
+  "win.scratchpad.replaceWith": "Заменить на",
+  "win.scratchpad.plainText": "Обычный текст",
+  "win.scratchpad.markdown": "Markdown"
+}

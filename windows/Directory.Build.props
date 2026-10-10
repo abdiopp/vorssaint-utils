@@ -1,0 +1,39 @@
+<Project>
+  <!--
+    Product identity. The app ships under a working codename until it gets a
+    real name. Everything user-visible (window titles, tray tooltip, data
+    folders, AppUserModelID, installer, update feed) derives from these
+    properties; tools/rename-product.sh also renames the code namespaces.
+  -->
+  <PropertyGroup>
+    <ProductDisplayName>Rivet</ProductDisplayName>
+    <ProductId>Rivet</ProductId>
+    <ProductCompany>Rivet contributors</ProductCompany>
+    <ProductUpdateRepository>abdiopp/vorssaint-utils</ProductUpdateRepository>
+    <ProductUpdateAssetPrefix>Rivet</ProductUpdateAssetPrefix>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <Deterministic>true</Deterministic>
+    <Company>$(ProductCompany)</Company>
+    <Product>$(ProductDisplayName)</Product>
+    <Copyright>Copyright (C) 2026 $(ProductCompany). Licensed under GPL-3.0-or-later.</Copyright>
+    <WindowsTargetFramework>net10.0-windows10.0.22621.0</WindowsTargetFramework>
+    <WindowsMinimumVersion>10.0.19041.0</WindowsMinimumVersion>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyMetadata Include="ProductDisplayName" Value="$(ProductDisplayName)" />
+    <AssemblyMetadata Include="ProductId" Value="$(ProductId)" />
+    <AssemblyMetadata Include="ProductCompany" Value="$(ProductCompany)" />
+    <AssemblyMetadata Include="ProductUpdateRepository" Value="$(ProductUpdateRepository)" />
+    <AssemblyMetadata Include="ProductUpdateAssetPrefix" Value="$(ProductUpdateAssetPrefix)" />
+  </ItemGroup>
+</Project>

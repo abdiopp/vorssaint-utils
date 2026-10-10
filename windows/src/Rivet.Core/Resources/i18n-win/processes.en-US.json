@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Listening ports on this PC",
+  "killProcess.groupCaption": "Groups helper processes, such as browser tabs, under the copy of the same program that started them.",
+  "win.processes.moreActions": "More actions",
+  "win.processes.protected": "Windows needs this process. It can’t be ended from here.",
+  "win.processes.noWindowsNote": "This process has no window to close, so it is ended right away. Unsaved work in it is lost.",
+  "win.processes.confirmRestartFormat": "Restart %@?",
+  "win.processes.accessDeniedFormat": "Windows did not let the app end “%@” because it runs as administrator or as another user. Restart this app as administrator to end it.",
+  "win.processes.relaunchFailedFormat": "%@ quit but could not be started again.",
+  "win.processes.adminTitle": "Processes of administrators and other users",
+  "win.processes.adminNote": "They can only be ended while this app runs as administrator.",
+  "win.processes.openInBrowser": "Open in browser",
+  "win.processes.showUdp": "Show UDP sockets",
+  "win.processes.showUdpCaption": "UDP has no listening state, so every open UDP socket is listed."
+}

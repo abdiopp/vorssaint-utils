@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Close when I click outside",
+  "win.scratchpad.alwaysOnTop": "Keep above other windows",
+  "win.scratchpad.alwaysOnTopCaption": "The pad floats over every app until you close it.",
+  "win.scratchpad.appearanceTitle": "Appearance",
+  "win.scratchpad.shortcutToggle": "Global shortcut",
+  "win.scratchpad.find": "Find",
+  "win.scratchpad.findNext": "Next match (F3)",
+  "win.scratchpad.findPrevious": "Previous match (Shift+F3)",
+  "win.scratchpad.replace": "Replace",
+  "win.scratchpad.replaceAll": "Replace all",
+  "win.scratchpad.replaceWith": "Replace with",
+  "win.scratchpad.plainText": "Plain text",
+  "win.scratchpad.markdown": "Markdown"
+}

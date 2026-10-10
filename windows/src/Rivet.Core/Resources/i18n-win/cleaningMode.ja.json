@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "安全に掃除できるようキーボードをロックします。",
+  "Strings.cleaningOverlayMouseHint": "マウスとタッチパッドはそのまま使えます",
+  "win.cleaningMode.overlaySubtitle": "Esc キーを 5 回押すとロックを解除します",
+  "win.cleaningMode.mouseHint": "マウスとタッチパッドはそのまま使えます",
+  "win.cleaningMode.unlockCaption": "それぞれのキーは前回から 6 秒以内に押す必要があります。ほかのキーを押すと最初からやり直しになります。「ロックを解除」をクリックしても解除できます。",
+  "win.cleaningMode.limitsTitle": "Windows がアプリにブロックを許可しないもの",
+  "win.cleaningMode.limits": "Ctrl+Alt+Del と Win+L は引き続き使えます。ファームウェアが処理する一部のノート PC のキー（明るさ、電源）も同様です。管理者として実行中のアプリへの入力はブロックされない場合があります。",
+  "win.cleaningMode.howTitle": "しくみ",
+  "win.cleaningMode.couldNotLock": "キーボードをロックできませんでした。",
+  "win.cleaningMode.endedNotResponding": "アプリが応答しなくなったため、クリーニングモードを終了しました。",
+  "win.cleaningMode.endedHooksLost": "Windows がアプリにキーボード イベントを送らなくなったため、クリーニングモードを終了しました。"
+}

@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "Não é possível digitar em um app executado como administrador.",
+  "win.clipboard.autoClearTitle": "Limpeza automática",
+  "win.clipboard.browseApp": "Escolher um programa…",
+  "clipboard.localNote": "Tudo fica neste PC. Itens muito grandes são ignorados.",
+  "clipboard.shortcutCaption": "Abre uma janela rápida com busca, itens fixados e atalhos Ctrl+1 a Ctrl+9 para colar no app anterior.",
+  "clipboard.shortcutHint": "Clique em um cartão para colá-lo no app anterior. Ctrl+clique seleciona vários; Ctrl+C copia sem colar.",
+  "clipboard.commandClickShortcut": "Ctrl+Clique",
+  "Strings.urlCleanerLocalNote": "Local. Sem rede.",
+  "clipboard.autoClearOnSleep": "Limpar a área de transferência quando o PC entrar em suspensão"
+}

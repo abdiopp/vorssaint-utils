@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "이 PC에 있는 앱의 새 버전을 찾아 각 업데이트를 원래 출처에서 완료할 수 있도록 도와줍니다.",
+  "appUpdates.coverageNote": "winget 카탈로그, Microsoft Store, 업데이트 피드를 제공하는 앱의 피드를 확인합니다. 업데이트는 원래 배포처를 통해 설치됩니다.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "winget으로 업데이트할 수 있는 앱 포함",
+  "appUpdates.includeStoreToggle": "Microsoft Store 앱 포함",
+  "appUpdates.includeStoreCaption": "이 PC의 지역을 기준으로 winget을 통해 Store 버전을 확인합니다. 이 업데이트는 Microsoft Store에서 설치합니다.",
+  "appUpdates.includeOnlineCaption": "많은 Electron 앱처럼 업데이트 피드를 제공하는 앱의 피드를 확인합니다. 업데이트는 앱 자체 업데이트 도구가 설치합니다.",
+  "appUpdates.openAppStore": "Microsoft Store 열기",
+  "appUpdates.storeHint": "이 업데이트를 설치하는 Microsoft Store를 엽니다",
+  "appUpdates.packageMissing": "winget이 설치되어 있지 않아 아직 여기에서 앱을 업데이트할 수 없습니다.",
+  "win.appUpdates.includeWingetCaption": "winget이 인식하는 모든 앱(winget으로 설치하지 않은 앱 포함)을 확인합니다. 이 업데이트는 winget이 여기에서 설치하며, 일부는 관리자 승인이 필요합니다.",
+  "win.appUpdates.lastSource": "최소 한 개의 소스는 켜져 있어야 합니다.",
+  "win.appUpdates.notificationsOff": "Windows에서 이 앱의 알림이 꺼져 있습니다.",
+  "win.appUpdates.confirmTitle": "선택한 앱을 업데이트하시겠습니까?",
+  "win.appUpdates.confirmPackagesFormat": "winget이 앱 %d개의 최신 버전을 차례로 다운로드하여 설치합니다. 계속하면 해당 라이선스 계약에 동의하게 됩니다.",
+  "win.appUpdates.confirmStoreNote": "Microsoft Store 앱은 Store에서 열리며, Store가 업데이트를 설치합니다.",
+  "win.appUpdates.idUnresolved": "winget이 이 앱의 ID를 줄여서 표시했습니다. 패키지 관리자에서 업데이트하세요."
+}

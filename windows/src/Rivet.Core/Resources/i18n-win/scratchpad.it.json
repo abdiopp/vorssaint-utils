@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Chiudi quando clicco fuori",
+  "win.scratchpad.alwaysOnTop": "Tieni sopra le altre finestre",
+  "win.scratchpad.alwaysOnTopCaption": "La bozza resta sopra tutte le app finché non la chiudi.",
+  "win.scratchpad.appearanceTitle": "Aspetto",
+  "win.scratchpad.shortcutToggle": "Scorciatoia globale",
+  "win.scratchpad.find": "Trova",
+  "win.scratchpad.findNext": "Risultato successivo (F3)",
+  "win.scratchpad.findPrevious": "Risultato precedente (Maiusc+F3)",
+  "win.scratchpad.replace": "Sostituisci",
+  "win.scratchpad.replaceAll": "Sostituisci tutto",
+  "win.scratchpad.replaceWith": "Sostituisci con",
+  "win.scratchpad.plainText": "Testo normale",
+  "win.scratchpad.markdown": "Markdown"
+}

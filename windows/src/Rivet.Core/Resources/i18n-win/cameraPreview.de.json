@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Der Kamerazugriff ist in den Datenschutzeinstellungen von Windows deaktiviert.",
+  "win.cameraPreview.openPrivacySettings": "Datenschutzeinstellungen öffnen…",
+  "win.cameraPreview.unavailableMessage": "Die Kamera konnte nicht starten. Versuche, sie erneut zu öffnen.",
+  "win.cameraPreview.retry": "Kamera öffnen",
+  "win.cameraPreview.permissionRequired": "Berechtigung erforderlich: Kamera",
+  "win.cameraPreview.notGranted": "Nicht erteilt. Aktiviere „Kamerazugriff“ und „Desktop-Apps den Zugriff auf Ihre Kamera erlauben“ in den Windows-Einstellungen.",
+  "win.cameraPreview.chooseCamera": "Kamera wählen",
+  "win.cameraPreview.shortcutToggle": "Globaler Kurzbefehl",
+  "win.cameraPreview.privacyTitle": "Nichts wird aufgezeichnet",
+  "win.cameraPreview.privacyCaption": "Die Kamera läuft nur, solange die Vorschau geöffnet ist, und nichts wird gespeichert oder irgendwohin gesendet.",
+  "win.cameraPreview.dismissTitle": "Vorschau schließen",
+  "win.cameraPreview.dismissCaption": "Drücke Esc, klicke irgendwo anders hin oder wechsle zu einer anderen App. Die Kameraleuchte erlischt sofort."
+}

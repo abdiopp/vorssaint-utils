@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Porte in ascolto su questo PC",
+  "killProcess.groupCaption": "Raggruppa i processi ausiliari, come le schede del browser, sotto l’istanza dello stesso programma che li ha avviati.",
+  "win.processes.moreActions": "Altre azioni",
+  "win.processes.protected": "Windows ha bisogno di questo processo. Non si può terminare da qui.",
+  "win.processes.noWindowsNote": "Questo processo non ha una finestra da chiudere, quindi viene terminato subito. Il lavoro non salvato al suo interno va perso.",
+  "win.processes.confirmRestartFormat": "Riavviare %@?",
+  "win.processes.accessDeniedFormat": "Windows non ha consentito all’app di terminare “%@” perché è eseguito come amministratore o come un altro utente. Riavvia questa app come amministratore per terminarlo.",
+  "win.processes.relaunchFailedFormat": "%@ è stato chiuso ma non è stato possibile riavviarlo.",
+  "win.processes.adminTitle": "Processi di amministratori e altri utenti",
+  "win.processes.adminNote": "Si possono terminare solo mentre questa app è eseguita come amministratore.",
+  "win.processes.openInBrowser": "Apri nel browser",
+  "win.processes.showUdp": "Mostra i socket UDP",
+  "win.processes.showUdpCaption": "UDP non ha uno stato di ascolto, quindi viene elencato ogni socket UDP aperto."
+}

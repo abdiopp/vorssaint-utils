@@ -1,0 +1,14 @@
+// Uninstaller: app icons from DisplayIcon and executables.
+ExtractIconEx
+GetIconInfo
+GetObject
+GetDIBits
+DestroyIcon
+DeleteObject
+GetDC
+ReleaseDC
+BITMAP
+BITMAPINFO
+BITMAPINFOHEADER
+ICONINFO
+DIB_USAGE

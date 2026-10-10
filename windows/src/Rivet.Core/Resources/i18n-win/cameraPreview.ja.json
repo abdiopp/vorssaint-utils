@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Windows のプライバシー設定でカメラへのアクセスがオフになっています。",
+  "win.cameraPreview.openPrivacySettings": "プライバシーの設定を開く…",
+  "win.cameraPreview.unavailableMessage": "カメラを開始できませんでした。もう一度開いてください。",
+  "win.cameraPreview.retry": "カメラを開く",
+  "win.cameraPreview.permissionRequired": "許可が必要: カメラ",
+  "win.cameraPreview.notGranted": "許可されていません。Windows の設定で「カメラへのアクセス」と「デスクトップ アプリがカメラにアクセスできるようにする」をオンにしてください。",
+  "win.cameraPreview.chooseCamera": "カメラを選択",
+  "win.cameraPreview.shortcutToggle": "グローバル ショートカット",
+  "win.cameraPreview.privacyTitle": "何も録画されません",
+  "win.cameraPreview.privacyCaption": "カメラはプレビューを開いている間だけ動作し、何も保存も送信もされません。",
+  "win.cameraPreview.dismissTitle": "プレビューを閉じる",
+  "win.cameraPreview.dismissCaption": "Esc キーを押すか、ほかの場所をクリックするか、別のアプリに切り替えます。カメラのライトはすぐに消えます。"
+}

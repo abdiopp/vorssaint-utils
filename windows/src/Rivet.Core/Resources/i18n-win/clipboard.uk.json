@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "Не вдається вводити текст у програму, запущену від імені адміністратора.",
+  "win.clipboard.autoClearTitle": "Автоочищення",
+  "win.clipboard.browseApp": "Вибрати програму…",
+  "clipboard.localNote": "Усе залишається на цьому ПК. Дуже великі елементи ігноруються.",
+  "clipboard.shortcutCaption": "Відкриває швидке вікно з пошуком, закріпленими елементами та скороченнями Ctrl+1–Ctrl+9 для вставки в попередню програму.",
+  "clipboard.shortcutHint": "Клацніть картку, щоб вставити її в попередню програму. Ctrl+клацання вибирає кілька; Ctrl+C копіює без вставки.",
+  "clipboard.commandClickShortcut": "Ctrl+клацання",
+  "Strings.urlCleanerLocalNote": "Локально. Без мережі.",
+  "clipboard.autoClearOnSleep": "Очищати буфер при засинанні комп’ютера"
+}

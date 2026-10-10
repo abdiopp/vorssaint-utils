@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "이 PC에서는 지원되지 않는 형식입니다.",
+  "win.mediaTools.unsupported": "이 PC에서는 지원되지 않는 형식입니다.",
+  "win.mediaTools.videoUnavailable": "동영상 인코딩을 사용할 수 없습니다. Windows Media Foundation이 없습니다(Windows N 에디션에서는 Media Feature Pack을 설치하세요).",
+  "win.mediaTools.frameUnavailable": "동영상 프레임을 사용할 수 없습니다.",
+  "win.mediaTools.ocrUnavailable": "텍스트 인식을 사용할 수 없습니다. Windows 설정 › 시간 및 언어 › 언어 및 지역에서 “광학 문자 인식”이 포함된 언어를 추가하세요.",
+  "win.mediaTools.heicMissing": "HEIC로 저장하려면 Microsoft Store의 HEIF 이미지 확장이 필요합니다. 다른 형식을 선택하거나 확장을 설치하세요.",
+  "win.mediaTools.heicHint": "Microsoft Store의 HEIF 이미지 확장을 설치하면 여기에 HEIC가 표시됩니다.",
+  "win.mediaTools.notEnoughSpace": "디스크 여유 공간이 부족해 편집기에서 클립을 열 수 없습니다(500MB의 여유 공간을 남겨 두어야 합니다).",
+  "win.mediaTools.textFile": "텍스트 파일",
+  "win.mediaTools.insertToken": "이름 토큰 삽입",
+  "win.mediaTools.previewOutputFormat": "출력: %@",
+  "Strings.mediaOpenInFinder": "보기"
+}

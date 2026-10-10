@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "Verrouille le clavier pour que vous puissiez le nettoyer en sécurité.",
+  "Strings.cleaningOverlayMouseHint": "Votre souris et votre pavé tactile fonctionnent toujours",
+  "win.cleaningMode.overlaySubtitle": "Appuyez 5 fois sur Esc pour déverrouiller",
+  "win.cleaningMode.mouseHint": "Votre souris et votre pavé tactile fonctionnent toujours",
+  "win.cleaningMode.unlockCaption": "Chaque appui doit suivre le précédent de moins de 6 secondes. Toute autre touche remet le compte à zéro. Vous pouvez aussi cliquer sur Déverrouiller.",
+  "win.cleaningMode.limitsTitle": "Ce que Windows ne laisse jamais une app bloquer",
+  "win.cleaningMode.limits": "Ctrl+Alt+Suppr et Win+L fonctionnent toujours, tout comme certaines touches de portable gérées par le micrologiciel (luminosité, alimentation). La saisie dans les apps exécutées en tant qu’administrateur peut ne pas être bloquée.",
+  "win.cleaningMode.howTitle": "Comment ça marche",
+  "win.cleaningMode.couldNotLock": "Le clavier n’a pas pu être verrouillé.",
+  "win.cleaningMode.endedNotResponding": "Le mode nettoyage s’est arrêté, car l’app ne répondait plus.",
+  "win.cleaningMode.endedHooksLost": "Le mode nettoyage s’est arrêté, car Windows a cessé d’envoyer les événements du clavier à l’app."
+}

@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "No se puede escribir en una app que se ejecuta como administrador.",
+  "win.clipboard.autoClearTitle": "Borrado automático",
+  "win.clipboard.browseApp": "Elegir un programa…",
+  "clipboard.localNote": "Todo se queda en este PC. Los elementos muy grandes se ignoran.",
+  "clipboard.shortcutCaption": "Abre una ventana rápida con búsqueda, elementos fijados y atajos de Ctrl+1 a Ctrl+9 para pegar en la app anterior.",
+  "clipboard.shortcutHint": "Haz clic en una tarjeta para pegarla en la app anterior. Ctrl+clic selecciona varias; Ctrl+C copia sin pegar.",
+  "clipboard.commandClickShortcut": "Ctrl+clic",
+  "Strings.urlCleanerLocalNote": "Local. Sin red.",
+  "clipboard.autoClearOnSleep": "Vaciar el portapapeles al suspender el equipo"
+}

@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "Do aplikácie spustenej ako správca sa nedá písať.",
+  "win.clipboard.autoClearTitle": "Automatické vymazanie",
+  "win.clipboard.browseApp": "Vybrať program…",
+  "clipboard.localNote": "Všetko zostáva len v tomto počítači. Príliš veľké položky sa ignorujú.",
+  "clipboard.shortcutCaption": "Otvorí rýchle okno s vyhľadávaním, pripnutými položkami a skratkami Ctrl+1 až Ctrl+9 na prilepenie do predchádzajúcej aplikácie.",
+  "clipboard.shortcutHint": "Kliknutím na kartu ju prilepíte do predchádzajúcej aplikácie. Ctrl+klik vyberie viac položiek, Ctrl+C skopíruje bez prilepenia.",
+  "clipboard.commandClickShortcut": "Ctrl+klik",
+  "Strings.urlCleanerLocalNote": "Lokálne. Bez siete.",
+  "clipboard.autoClearOnSleep": "Vymazať schránku pri uspaní Macu"
+}

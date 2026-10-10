@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Entrée insère · Esc ferme",
+  "snippets.enableCaption": "Tapez un déclencheur n’importe où et il devient son texte. Tout reste sur ce PC.",
+  "snippets.dateTimeStyleLocaleNote": "Un style nommé enregistre le format utilisé actuellement par la région de votre PC.",
+  "win.snippets.limitsNote": "Les extraits ne se développent jamais dans les champs de mot de passe et ne peuvent pas atteindre les apps exécutées en tant qu’administrateur."
+}

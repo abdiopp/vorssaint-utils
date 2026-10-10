@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "管理者として実行中のアプリには入力できません。",
+  "win.clipboard.autoClearTitle": "自動消去",
+  "win.clipboard.browseApp": "プログラムを選択…",
+  "clipboard.localNote": "すべてこの PC に残ります。大きすぎる項目は無視されます。",
+  "clipboard.shortcutCaption": "検索、固定項目、前のアプリへ貼り付ける Ctrl+1 から Ctrl+9 のショートカットを備えたクイックウィンドウを開きます。",
+  "clipboard.shortcutHint": "カードをクリックすると前のアプリに貼り付けます。Ctrl キーを押しながらクリックで複数選択、Ctrl+C は貼り付けずにコピーします。",
+  "clipboard.commandClickShortcut": "Ctrl+クリック",
+  "Strings.urlCleanerLocalNote": "ローカル。通信なし。",
+  "clipboard.autoClearOnSleep": "システムスリープ時にクリップボードを消去"
+}

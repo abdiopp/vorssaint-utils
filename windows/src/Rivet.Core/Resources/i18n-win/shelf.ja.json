@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "ドラッグしたファイルをトレイ アイコンの近くに残す",
+  "Strings.shelfDockMenuBar": "トレイ アイコンの近く",
+  "win.shelf.dockTray": "トレイ アイコンの近く",
+  "win.shelf.dropZoneToggle": "ドラッグしたファイルをトレイ アイコンの近くに残す",
+  "win.shelf.dropZoneCaption": "ファイルをドラッグすると、トレイ アイコンの近く（または画面上部の中央）に小さなシェルフが表示されます。ポインターを重ねるとシェルフが開き、ドロップしたものは件数付きのピルとしてそこに残ります。",
+  "win.shelf.shakeCaption": "何かをドラッグしながらポインターを左右にすばやく振ると、カーソルの近くにシェルフを呼び出せます。",
+  "win.shelf.explorerSelection": "ショートカットでエクスプローラーの選択項目を追加",
+  "win.shelf.explorerSelectionCaption": "エクスプローラーが最前面にあるとき、ショートカットで選択中のファイルが入った状態のシェルフを開きます。何も選択していない場合は通常どおり開きます。",
+  "win.shelf.triggersTitle": "開く方法",
+  "win.shelf.exclusionsCaption": "これらのアプリで始めたドラッグでは、振る操作、ドロップ ゾーン、画面の端からののぞき表示は動作しません。ショートカットと「今すぐ開く」は引き続き使えます。",
+  "win.shelf.addApp": "アプリを追加…",
+  "win.shelf.applications": "アプリケーション",
+  "win.shelf.showInExplorer": "エクスプローラーで表示",
+  "win.shelf.expandPile": "展開",
+  "win.shelf.collapsePile": "折りたたむ"
+}

@@ -1,0 +1,63 @@
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:shell="using:Rivet.App.Shell"
+             xmlns:c="using:Rivet.App.Controls"
+             xmlns:ic="using:FluentIcons.Avalonia"
+             x:Class="Rivet.App.Shell.PanelView"
+             x:DataType="shell:PanelViewModel"
+             Width="{StaticResource PanelWidth}">
+  <Grid RowDefinitions="Auto,Auto,*,Auto" Margin="12" RowSpacing="10">
+    <!-- Header -->
+    <Grid ColumnDefinitions="*,Auto">
+      <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+        <c:AppGlyph Width="18" Height="18" Foreground="{DynamicResource TextPrimaryBrush}" />
+        <TextBlock Text="{Binding ProductName}" FontWeight="SemiBold" FontSize="14" VerticalAlignment="Center" />
+      </StackPanel>
+      <Border Grid.Column="1" Classes="pill beta" IsVisible="{Binding IsBeta}">
+        <TextBlock Text="BETA" Foreground="{DynamicResource WarningBrush}" />
+      </Border>
+    </Grid>
+
+    <!-- Section tabs -->
+    <Border Grid.Row="1" Classes="card" Padding="3" IsVisible="{Binding Tabs.Count}">
+      <ItemsControl ItemsSource="{Binding Tabs}">
+        <ItemsControl.ItemsPanel>
+          <ItemsPanelTemplate>
+            <UniformGrid Rows="1" />
+          </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+        <ItemsControl.ItemTemplate>
+          <DataTemplate x:DataType="shell:PanelTabItem">
+            <RadioButton Classes="tab" GroupName="PanelTabs" IsChecked="{Binding IsSelected}"
+                         ToolTip.Tip="{Binding Title}" AutomationProperties.Name="{Binding Title}">
+              <ic:SymbolIcon Symbol="{Binding Icon}" FontSize="17" />
+            </RadioButton>
+          </DataTemplate>
+        </ItemsControl.ItemTemplate>
+      </ItemsControl>
+    </Border>
+
+    <!-- Current section -->
+    <ScrollViewer Grid.Row="2" MaxHeight="{Binding ContentMaxHeight}" HorizontalScrollBarVisibility="Disabled"
+                  VerticalScrollBarVisibility="Auto">
+      <ContentControl Content="{Binding Content}" />
+    </ScrollViewer>
+
+    <!-- Footer -->
+    <Grid Grid.Row="3" ColumnDefinitions="*,*" ColumnSpacing="8">
+      <Button Classes="footer" Command="{Binding OpenSettingsCommand}">
+        <StackPanel Orientation="Horizontal" Spacing="6">
+          <ic:SymbolIcon Symbol="Settings" FontSize="15" />
+          <TextBlock Text="{Binding SettingsLabel}" FontSize="12" VerticalAlignment="Center" />
+        </StackPanel>
+      </Button>
+      <Button Grid.Column="1" Classes="footer" Command="{Binding QuitCommand}">
+        <StackPanel Orientation="Horizontal" Spacing="6">
+          <ic:SymbolIcon Symbol="Power" FontSize="15" />
+          <TextBlock Text="{Binding QuitLabel}" FontSize="12" VerticalAlignment="Center" />
+        </StackPanel>
+      </Button>
+    </Grid>
+  </Grid>
+</UserControl>

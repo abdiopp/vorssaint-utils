@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "Tieni i file trascinati vicino all’icona nell’area di notifica",
+  "Strings.shelfDockMenuBar": "Vicino all’icona nell’area di notifica",
+  "win.shelf.dockTray": "Vicino all’icona nell’area di notifica",
+  "win.shelf.dropZoneToggle": "Tieni i file trascinati vicino all’icona nell’area di notifica",
+  "win.shelf.dropZoneCaption": "Mentre trascini un file, un piccolo ripiano appare vicino all’icona nell’area di notifica (o in alto al centro). Passaci sopra per aprire il ripiano; quello che rilasci resta lì come una pillola con un contatore.",
+  "win.shelf.shakeCaption": "Scuoti rapidamente il puntatore da un lato all’altro mentre trascini qualcosa per richiamare il ripiano vicino al cursore.",
+  "win.shelf.explorerSelection": "Aggiungi la selezione di Esplora file con la scorciatoia",
+  "win.shelf.explorerSelectionCaption": "Con Esplora file in primo piano, la scorciatoia apre il ripiano con i file selezionati già dentro. Senza selezione si apre come sempre.",
+  "win.shelf.triggersTitle": "Modi per aprirlo",
+  "win.shelf.exclusionsCaption": "Lo scuotimento, l’area di rilascio e l’anteprima dal bordo dello schermo restano inattivi per i trascinamenti avviati in queste app. La scorciatoia e Apri ora funzionano ancora.",
+  "win.shelf.addApp": "Aggiungi app…",
+  "win.shelf.applications": "Applicazioni",
+  "win.shelf.showInExplorer": "Mostra in Esplora file",
+  "win.shelf.expandPile": "Espandi",
+  "win.shelf.collapsePile": "Riduci"
+}

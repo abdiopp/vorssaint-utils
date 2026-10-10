@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "Dieses Format wird auf diesem PC nicht unterstützt.",
+  "win.mediaTools.unsupported": "Dieses Format wird auf diesem PC nicht unterstützt.",
+  "win.mediaTools.videoUnavailable": "Videocodierung ist nicht verfügbar. Windows Media Foundation fehlt (installiere in Windows N-Editionen das Media Feature Pack).",
+  "win.mediaTools.frameUnavailable": "Videobild nicht verfügbar.",
+  "win.mediaTools.ocrUnavailable": "Die Texterkennung ist nicht verfügbar. Füge unter Windows-Einstellungen › Zeit und Sprache › Sprache und Region eine Sprache mit optischer Zeichenerkennung hinzu.",
+  "win.mediaTools.heicMissing": "Zum Speichern als HEIC werden die HEIF-Bilderweiterungen aus dem Microsoft Store benötigt. Wähle ein anderes Format oder installiere die Erweiterung.",
+  "win.mediaTools.heicHint": "HEIC erscheint hier, sobald die HEIF-Bilderweiterungen aus dem Microsoft Store installiert sind.",
+  "win.mediaTools.notEnoughSpace": "Nicht genug freier Speicherplatz, um den Clip im Editor zu öffnen (500 MB müssen frei bleiben).",
+  "win.mediaTools.textFile": "Textdatei",
+  "win.mediaTools.insertToken": "Namensplatzhalter einfügen",
+  "win.mediaTools.previewOutputFormat": "Ausgabe: %@",
+  "Strings.mediaOpenInFinder": "Anzeigen"
+}

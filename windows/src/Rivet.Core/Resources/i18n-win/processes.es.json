@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Puertos de escucha en este PC",
+  "killProcess.groupCaption": "Agrupa los procesos auxiliares, como las pestañas del navegador, bajo la instancia del mismo programa que los inició.",
+  "win.processes.moreActions": "Más acciones",
+  "win.processes.protected": "Windows necesita este proceso. No se puede finalizar desde aquí.",
+  "win.processes.noWindowsNote": "Este proceso no tiene ninguna ventana que cerrar, así que se finaliza de inmediato. Se pierde el trabajo sin guardar.",
+  "win.processes.confirmRestartFormat": "¿Reiniciar %@?",
+  "win.processes.accessDeniedFormat": "Windows no permitió que la app finalizara “%@” porque se ejecuta como administrador o como otro usuario. Reinicia esta app como administrador para finalizarlo.",
+  "win.processes.relaunchFailedFormat": "%@ se cerró, pero no se pudo volver a iniciar.",
+  "win.processes.adminTitle": "Procesos de administradores y otros usuarios",
+  "win.processes.adminNote": "Solo se pueden finalizar mientras esta app se ejecuta como administrador.",
+  "win.processes.openInBrowser": "Abrir en el navegador",
+  "win.processes.showUdp": "Mostrar sockets UDP",
+  "win.processes.showUdpCaption": "UDP no tiene estado de escucha, así que se muestra cada socket UDP abierto."
+}

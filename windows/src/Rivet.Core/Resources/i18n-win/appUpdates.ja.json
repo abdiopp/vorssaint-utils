@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "この PC のアプリに新しいバージョンがないか調べ、それぞれの元の配布元からアップデートを完了できるようにします。",
+  "appUpdates.coverageNote": "winget のカタログ、Microsoft Store、および更新フィードを公開しているアプリのフィードを確認します。アップデートは元の配布元からインストールされます。",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "winget で更新できるアプリを含める",
+  "appUpdates.includeStoreToggle": "Microsoft Store のアプリも含める",
+  "appUpdates.includeStoreCaption": "この PC の地域を使って、winget 経由で Store のバージョンを確認します。これらのアップデートは Microsoft Store がインストールします。",
+  "appUpdates.includeOnlineCaption": "多くの Electron アプリなど、更新フィードを公開しているアプリのフィードを確認します。アップデートはアプリ自身の更新機能がインストールします。",
+  "appUpdates.openAppStore": "Microsoft Store を開く",
+  "appUpdates.storeHint": "このアップデートをインストールする Microsoft Store を開きます",
+  "appUpdates.packageMissing": "winget がインストールされていないため、ここからアプリをアップデートすることはまだできません。",
+  "win.appUpdates.includeWingetCaption": "winget が認識するすべてのアプリ（winget でインストールしていないものも含む）を確認します。これらのアップデートは winget がここでインストールします。一部は管理者の承認が必要です。",
+  "win.appUpdates.lastSource": "少なくとも 1 つのソースはオンのままになります。",
+  "win.appUpdates.notificationsOff": "Windows でこのアプリの通知がオフになっています。",
+  "win.appUpdates.confirmTitle": "選択したアプリをアップデートしますか?",
+  "win.appUpdates.confirmPackagesFormat": "winget が %d 個のアプリの最新バージョンを順番にダウンロードしてインストールします。続行すると、それぞれのライセンス契約に同意したことになります。",
+  "win.appUpdates.confirmStoreNote": "Microsoft Store のアプリは Store で開き、Store がアップデートをインストールします。",
+  "win.appUpdates.idUnresolved": "winget がこのアプリの ID を短縮して表示しました。パッケージマネージャから更新してください。"
+}

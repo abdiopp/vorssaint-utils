@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "Sperrt die Tastatur, damit du sie sicher reinigen kannst.",
+  "Strings.cleaningOverlayMouseHint": "Maus und Touchpad funktionieren weiterhin",
+  "win.cleaningMode.overlaySubtitle": "Esc 5-mal drücken zum Entsperren",
+  "win.cleaningMode.mouseHint": "Maus und Touchpad funktionieren weiterhin",
+  "win.cleaningMode.unlockCaption": "Jeder Druck muss innerhalb von 6 Sekunden nach dem vorherigen kommen. Jede andere Taste setzt den Zähler zurück. Du kannst auch auf Entsperren klicken.",
+  "win.cleaningMode.limitsTitle": "Was Windows keine App blockieren lässt",
+  "win.cleaningMode.limits": "Strg+Alt+Entf und Win+L funktionieren weiterhin, ebenso einige Laptoptasten, die die Firmware verarbeitet (Helligkeit, Ein/Aus). Eingaben in Apps, die als Administrator laufen, werden eventuell nicht blockiert.",
+  "win.cleaningMode.howTitle": "So funktioniert’s",
+  "win.cleaningMode.couldNotLock": "Die Tastatur konnte nicht gesperrt werden.",
+  "win.cleaningMode.endedNotResponding": "Der Reinigungsmodus wurde beendet, weil die App nicht mehr reagiert hat.",
+  "win.cleaningMode.endedHooksLost": "Der Reinigungsmodus wurde beendet, weil Windows keine Tastaturereignisse mehr an die App gesendet hat."
+}

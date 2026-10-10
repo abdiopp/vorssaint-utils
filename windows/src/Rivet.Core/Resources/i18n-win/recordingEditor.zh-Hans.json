@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "系统声音",
+  "win.recordingEditor.showInFolder": "在文件夹中显示",
+  "win.recordingEditor.saveTo": "保存到…",
+  "win.recordingEditor.mp4Unavailable": "保存视频需要 Windows Media Foundation，但这台电脑没有安装（Windows N 版本请安装 Media Feature Pack）。你仍然可以保存为 GIF。",
+  "win.recordingEditor.openFailed": "无法在这台电脑上播放此录制。保存会保留原始视频文件，方便你在其他地方打开。",
+  "win.recordingEditor.openSample": "在编辑器中打开示例录制",
+  "win.recordingEditor.videoFilter": "MPEG-4 视频",
+  "win.recordingEditor.imageFilter": "图片",
+  "recorderExport.previewNote": "适用于保存和复制的视频及 GIF。编辑预览保持 1×，原始录制不会改变。"
+}

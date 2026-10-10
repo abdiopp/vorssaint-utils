@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "锁定键盘，便于安全清洁。",
+  "Strings.cleaningOverlayMouseHint": "你的鼠标和触摸板仍可使用",
+  "win.cleaningMode.overlaySubtitle": "按下 Esc 键 5 次以解锁",
+  "win.cleaningMode.mouseHint": "你的鼠标和触摸板仍可使用",
+  "win.cleaningMode.unlockCaption": "每次按键都必须在上一次按键后的 6 秒内完成。按下其他任何键都会重新计数。你也可以点击“解锁”。",
+  "win.cleaningMode.limitsTitle": "Windows 始终不允许 App 阻止的按键",
+  "win.cleaningMode.limits": "Ctrl+Alt+Del 和 Win+L 仍然有效，由固件处理的部分笔记本电脑按键（亮度、电源）也是如此。向以管理员身份运行的 App 输入的内容可能不会被阻止。",
+  "win.cleaningMode.howTitle": "工作原理",
+  "win.cleaningMode.couldNotLock": "无法锁定键盘。",
+  "win.cleaningMode.endedNotResponding": "由于 App 停止响应，清洁模式已结束。",
+  "win.cleaningMode.endedHooksLost": "由于 Windows 不再向 App 发送键盘事件，清洁模式已结束。"
+}

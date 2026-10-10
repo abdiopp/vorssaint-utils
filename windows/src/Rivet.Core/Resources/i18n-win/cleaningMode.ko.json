@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "안전하게 청소할 수 있도록 키보드를 잠급니다.",
+  "Strings.cleaningOverlayMouseHint": "마우스와 터치패드는 계속 사용할 수 있습니다",
+  "win.cleaningMode.overlaySubtitle": "Esc 키를 5번 눌러 잠금을 해제하세요",
+  "win.cleaningMode.mouseHint": "마우스와 터치패드는 계속 사용할 수 있습니다",
+  "win.cleaningMode.unlockCaption": "각 키는 이전에 누른 뒤 6초 안에 눌러야 합니다. 다른 키를 누르면 처음부터 다시 시작합니다. 잠금 해제를 클릭해도 됩니다.",
+  "win.cleaningMode.limitsTitle": "Windows가 앱의 차단을 허용하지 않는 항목",
+  "win.cleaningMode.limits": "Ctrl+Alt+Del과 Win+L은 계속 작동하며, 펌웨어가 처리하는 일부 노트북 키(밝기, 전원)도 마찬가지입니다. 관리자 권한으로 실행 중인 앱에 입력하는 것은 차단되지 않을 수 있습니다.",
+  "win.cleaningMode.howTitle": "작동 방식",
+  "win.cleaningMode.couldNotLock": "키보드를 잠글 수 없습니다.",
+  "win.cleaningMode.endedNotResponding": "앱이 응답하지 않아 청소 모드가 종료되었습니다.",
+  "win.cleaningMode.endedHooksLost": "Windows가 앱에 키보드 이벤트를 보내지 않아 청소 모드가 종료되었습니다."
+}

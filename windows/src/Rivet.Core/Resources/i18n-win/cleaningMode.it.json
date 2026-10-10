@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "Blocca la tastiera per poterla pulire in sicurezza.",
+  "Strings.cleaningOverlayMouseHint": "Mouse e touchpad continuano a funzionare",
+  "win.cleaningMode.overlaySubtitle": "Premi Esc 5 volte per sbloccare",
+  "win.cleaningMode.mouseHint": "Mouse e touchpad continuano a funzionare",
+  "win.cleaningMode.unlockCaption": "Ogni pressione deve arrivare entro 6 secondi dalla precedente. Qualsiasi altro tasto fa ricominciare da capo. Puoi anche fare clic su Sblocca.",
+  "win.cleaningMode.limitsTitle": "Cosa Windows non lascia mai bloccare a un’app",
+  "win.cleaningMode.limits": "Ctrl+Alt+Canc e Win+L continuano a funzionare, così come alcuni tasti del portatile gestiti dal firmware (luminosità, alimentazione). La digitazione nelle app eseguite come amministratore potrebbe non essere bloccata.",
+  "win.cleaningMode.howTitle": "Come funziona",
+  "win.cleaningMode.couldNotLock": "Impossibile bloccare la tastiera.",
+  "win.cleaningMode.endedNotResponding": "La modalità pulizia è terminata perché l’app ha smesso di rispondere.",
+  "win.cleaningMode.endedHooksLost": "La modalità pulizia è terminata perché Windows ha smesso di inviare gli eventi della tastiera all’app."
+}

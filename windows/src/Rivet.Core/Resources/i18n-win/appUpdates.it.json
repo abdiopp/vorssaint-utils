@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Cerca versioni più recenti delle app di questo PC e ti aiuta a completare ogni aggiornamento dalla fonte originale.",
+  "appUpdates.coverageNote": "Controlla il catalogo di winget, il Microsoft Store e i feed di aggiornamento delle app che ne pubblicano uno. Gli aggiornamenti vengono installati dalla fonte originale.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "Includi le app che winget può aggiornare",
+  "appUpdates.includeStoreToggle": "Includi le app del Microsoft Store",
+  "appUpdates.includeStoreCaption": "Controlla le versioni dello Store tramite winget, usando l’area geografica di questo PC. Il Microsoft Store installa questi aggiornamenti.",
+  "appUpdates.includeOnlineCaption": "Controlla i feed di aggiornamento delle app che ne pubblicano uno, come molte app Electron. Il programma di aggiornamento dell’app installa l’aggiornamento.",
+  "appUpdates.openAppStore": "Apri il Microsoft Store",
+  "appUpdates.storeHint": "Apre il Microsoft Store, dove questo aggiornamento viene installato",
+  "appUpdates.packageMissing": "winget non è installato, quindi da qui non si possono ancora aggiornare le app.",
+  "win.appUpdates.includeWingetCaption": "Controlla tutte le app che winget riconosce, anche quelle che non ha installato. winget installa questi aggiornamenti qui; alcuni richiedono l’approvazione di un amministratore.",
+  "win.appUpdates.lastSource": "Almeno una fonte resta attiva.",
+  "win.appUpdates.notificationsOff": "Le notifiche sono disattivate per questa app in Windows.",
+  "win.appUpdates.confirmTitle": "Aggiornare le app selezionate?",
+  "win.appUpdates.confirmPackagesFormat": "winget scaricherà e installerà l’ultima versione di %d app, una dopo l’altra. Continuando accetti i relativi contratti di licenza.",
+  "win.appUpdates.confirmStoreNote": "Le app del Microsoft Store si aprono nello Store, che ne installa gli aggiornamenti.",
+  "win.appUpdates.idUnresolved": "winget ha abbreviato l’ID di questa app. Aggiornala dal gestore pacchetti."
+}

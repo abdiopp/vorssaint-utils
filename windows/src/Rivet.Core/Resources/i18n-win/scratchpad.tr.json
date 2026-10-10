@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Dışarı tıklayınca kapat",
+  "win.scratchpad.alwaysOnTop": "Diğer pencerelerin üstünde tut",
+  "win.scratchpad.alwaysOnTopCaption": "Karalama defteri, sen kapatana kadar tüm uygulamaların üstünde durur.",
+  "win.scratchpad.appearanceTitle": "Görünüm",
+  "win.scratchpad.shortcutToggle": "Genel kısayol",
+  "win.scratchpad.find": "Bul",
+  "win.scratchpad.findNext": "Sonraki eşleşme (F3)",
+  "win.scratchpad.findPrevious": "Önceki eşleşme (Shift+F3)",
+  "win.scratchpad.replace": "Değiştir",
+  "win.scratchpad.replaceAll": "Tümünü değiştir",
+  "win.scratchpad.replaceWith": "Yeni metin",
+  "win.scratchpad.plainText": "Düz metin",
+  "win.scratchpad.markdown": "Markdown"
+}

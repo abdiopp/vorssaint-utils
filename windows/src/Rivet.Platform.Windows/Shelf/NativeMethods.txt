@@ -1,0 +1,13 @@
+// Shelf: drag detection, file identities, file types, Explorer reveal.
+GetCurrentProcessId
+FindWindow
+CreateFile
+GetFileInformationByHandleEx
+OpenFileById
+GetFinalPathNameByHandle
+FILE_ID_INFO
+FILE_ID_DESCRIPTOR
+FILE_ID_TYPE
+FILE_INFO_BY_HANDLE_CLASS
+ILFindLastID
+SHGFI_FLAGS

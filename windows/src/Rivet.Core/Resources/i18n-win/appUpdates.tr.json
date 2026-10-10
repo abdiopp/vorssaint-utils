@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Bu PC’deki uygulamaların yeni sürümlerini arar ve her güncellemeyi kendi kaynağında tamamlamana yardımcı olur.",
+  "appUpdates.coverageNote": "winget kataloğunu, Microsoft Store’u ve güncelleme akışı yayımlayan uygulamaların akışlarını denetler. Güncellemeler özgün kaynaklarından yüklenir.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "winget’in güncelleyebildiği uygulamaları dahil et",
+  "appUpdates.includeStoreToggle": "Microsoft Store uygulamalarını da kat",
+  "appUpdates.includeStoreCaption": "Bu PC’nin bölgesini kullanarak Store sürümlerini winget üzerinden denetler. Bu güncellemeleri Microsoft Store yükler.",
+  "appUpdates.includeOnlineCaption": "Birçok Electron uygulaması gibi güncelleme akışı yayımlayan uygulamaların akışlarını denetler. Güncellemeyi uygulamanın kendi güncelleyicisi yükler.",
+  "appUpdates.openAppStore": "Microsoft Store’u aç",
+  "appUpdates.storeHint": "Bu güncellemenin yüklendiği Microsoft Store’u açar",
+  "appUpdates.packageMissing": "winget yüklü değil, bu yüzden uygulamalar buradan henüz güncellenemiyor.",
+  "win.appUpdates.includeWingetCaption": "winget’in tanıdığı her uygulamayı, yüklemediklerini de denetler. winget bu güncellemeleri burada yükler; bazıları yönetici onayı ister.",
+  "win.appUpdates.lastSource": "En az bir kaynak açık kalır.",
+  "win.appUpdates.notificationsOff": "Windows’ta bu uygulama için bildirimler kapalı.",
+  "win.appUpdates.confirmTitle": "Seçili uygulamalar güncellensin mi?",
+  "win.appUpdates.confirmPackagesFormat": "winget, %d uygulamanın en son sürümünü sırayla indirip yükleyecek. Devam ederek lisans sözleşmelerini kabul etmiş olursun.",
+  "win.appUpdates.confirmStoreNote": "Microsoft Store uygulamaları, güncellemelerini yükleyen Store’da açılır.",
+  "win.appUpdates.idUnresolved": "winget bu uygulamanın kimliğini kısalttı. Paket yöneticisinden güncelle."
+}

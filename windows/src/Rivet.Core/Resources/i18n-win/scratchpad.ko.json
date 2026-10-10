@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "바깥을 클릭하면 닫기",
+  "win.scratchpad.alwaysOnTop": "다른 창 위에 표시",
+  "win.scratchpad.alwaysOnTopCaption": "메모를 닫을 때까지 모든 앱 위에 떠 있습니다.",
+  "win.scratchpad.appearanceTitle": "외관",
+  "win.scratchpad.shortcutToggle": "전역 단축키",
+  "win.scratchpad.find": "찾기",
+  "win.scratchpad.findNext": "다음 찾기(F3)",
+  "win.scratchpad.findPrevious": "이전 찾기(Shift+F3)",
+  "win.scratchpad.replace": "바꾸기",
+  "win.scratchpad.replaceAll": "모두 바꾸기",
+  "win.scratchpad.replaceWith": "바꿀 내용",
+  "win.scratchpad.plainText": "일반 텍스트",
+  "win.scratchpad.markdown": "Markdown"
+}

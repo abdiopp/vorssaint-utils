@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "Guardar arquivos arrastados perto do ícone da bandeja",
+  "Strings.shelfDockMenuBar": "Perto do ícone da bandeja",
+  "win.shelf.dockTray": "Perto do ícone da bandeja",
+  "win.shelf.dropZoneToggle": "Guardar arquivos arrastados perto do ícone da bandeja",
+  "win.shelf.dropZoneCaption": "Ao arrastar um arquivo, uma pequena área temporária aparece perto do ícone da bandeja (ou no topo, no centro). Passe o ponteiro sobre ela para abri-la; o que você soltar fica ali como uma pílula com uma contagem.",
+  "win.shelf.shakeCaption": "Sacuda o ponteiro rapidamente de um lado para o outro enquanto arrasta algo para chamar a área temporária perto do cursor.",
+  "win.shelf.explorerSelection": "Adicionar a seleção do Explorador de Arquivos com o atalho",
+  "win.shelf.explorerSelectionCaption": "Com o Explorador de Arquivos em primeiro plano, o atalho abre a área temporária já com os arquivos selecionados. Sem seleção, ela abre como sempre.",
+  "win.shelf.triggersTitle": "Formas de abrir",
+  "win.shelf.exclusionsCaption": "Sacudir, a área de soltar e a espiada na borda da tela ficam desligados durante arrastes iniciados nesses apps. O atalho e Abrir agora continuam funcionando.",
+  "win.shelf.addApp": "Adicionar app…",
+  "win.shelf.applications": "Aplicativos",
+  "win.shelf.showInExplorer": "Mostrar no Explorador de Arquivos",
+  "win.shelf.expandPile": "Expandir",
+  "win.shelf.collapsePile": "Encolher"
+}

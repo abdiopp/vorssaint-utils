@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "外側をクリックしたら閉じる",
+  "win.scratchpad.alwaysOnTop": "ほかのウィンドウの手前に表示",
+  "win.scratchpad.alwaysOnTopCaption": "閉じるまで、メモはすべてのアプリの手前に表示され続けます。",
+  "win.scratchpad.appearanceTitle": "外観",
+  "win.scratchpad.shortcutToggle": "グローバル ショートカット",
+  "win.scratchpad.find": "検索",
+  "win.scratchpad.findNext": "次を検索 (F3)",
+  "win.scratchpad.findPrevious": "前を検索 (Shift+F3)",
+  "win.scratchpad.replace": "置換",
+  "win.scratchpad.replaceAll": "すべて置換",
+  "win.scratchpad.replaceWith": "置換後の文字列",
+  "win.scratchpad.plainText": "プレーン テキスト",
+  "win.scratchpad.markdown": "Markdown"
+}

@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "Klavyeyi güvenle temizleyebilmen için kilitler.",
+  "Strings.cleaningOverlayMouseHint": "Fare ve dokunmatik yüzey çalışmaya devam eder",
+  "win.cleaningMode.overlaySubtitle": "Kilidi açmak için Esc tuşuna 5 kez bas",
+  "win.cleaningMode.mouseHint": "Fare ve dokunmatik yüzey çalışmaya devam eder",
+  "win.cleaningMode.unlockCaption": "Her basış bir öncekinden sonraki 6 saniye içinde gelmeli. Başka herhangi bir tuş sayımı baştan başlatır. Kilidi aç’a da tıklayabilirsin.",
+  "win.cleaningMode.limitsTitle": "Windows’un hiçbir uygulamaya engelletmediği şeyler",
+  "win.cleaningMode.limits": "Ctrl+Alt+Del ve Win+L çalışmaya devam eder; donanım yazılımının işlediği bazı dizüstü tuşları da (parlaklık, güç) öyle. Yönetici olarak çalışan uygulamalara yazma engellenmeyebilir.",
+  "win.cleaningMode.howTitle": "Nasıl çalışır",
+  "win.cleaningMode.couldNotLock": "Klavye kilitlenemedi.",
+  "win.cleaningMode.endedNotResponding": "Uygulama yanıt vermeyi bıraktığı için Temizleme Modu sona erdi.",
+  "win.cleaningMode.endedHooksLost": "Windows uygulamaya klavye olaylarını göndermeyi bıraktığı için Temizleme Modu sona erdi."
+}

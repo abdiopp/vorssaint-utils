@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Portas de escuta neste PC",
+  "killProcess.groupCaption": "Agrupa processos auxiliares, como abas do navegador, sob a cópia do mesmo programa que os iniciou.",
+  "win.processes.moreActions": "Mais ações",
+  "win.processes.protected": "O Windows precisa deste processo. Ele não pode ser encerrado daqui.",
+  "win.processes.noWindowsNote": "Este processo não tem janela para fechar, então é encerrado na hora. O trabalho não salvo nele é perdido.",
+  "win.processes.confirmRestartFormat": "Reiniciar %@?",
+  "win.processes.accessDeniedFormat": "O Windows não deixou o app encerrar “%@” porque ele é executado como administrador ou como outro usuário. Reinicie este app como administrador para encerrá-lo.",
+  "win.processes.relaunchFailedFormat": "%@ foi encerrado, mas não pôde ser iniciado de novo.",
+  "win.processes.adminTitle": "Processos de administradores e de outros usuários",
+  "win.processes.adminNote": "Eles só podem ser encerrados enquanto este app é executado como administrador.",
+  "win.processes.openInBrowser": "Abrir no navegador",
+  "win.processes.showUdp": "Mostrar sockets UDP",
+  "win.processes.showUdpCaption": "O UDP não tem estado de escuta, então todos os sockets UDP abertos são listados."
+}

@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "Yönetici olarak çalışan bir uygulamaya yazılamaz.",
+  "win.clipboard.autoClearTitle": "Otomatik temizle",
+  "win.clipboard.browseApp": "Bir program seç…",
+  "clipboard.localNote": "Her şey bu PC’de kalır. Çok büyük öğeler yok sayılır.",
+  "clipboard.shortcutCaption": "Arama, sabitlenmiş öğeler ve önceki uygulamaya yapıştırmak için Ctrl+1 - Ctrl+9 kısayolları olan hızlı bir pencere açar.",
+  "clipboard.shortcutHint": "Bir karta tıklayarak önceki uygulamaya yapıştırın. Ctrl-tıklama birden çok öğe seçer; Ctrl+C yapıştırmadan kopyalar.",
+  "clipboard.commandClickShortcut": "Ctrl+Tıkla",
+  "Strings.urlCleanerLocalNote": "Yerel. Ağ yok.",
+  "clipboard.autoClearOnSleep": "Bilgisayar uykuya geçince panoyu temizle"
+}

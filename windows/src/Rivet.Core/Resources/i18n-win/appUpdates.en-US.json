@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Looks for newer versions of the apps on this PC and helps you finish each update from its original source.",
+  "appUpdates.coverageNote": "Checks winget’s catalog, the Microsoft Store and the update feeds of apps that publish one. Updates install through their original source.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "Include apps winget can update",
+  "appUpdates.includeStoreToggle": "Include Microsoft Store apps",
+  "appUpdates.includeStoreCaption": "Checks Store versions through winget, using this PC’s region. The Microsoft Store installs these updates.",
+  "appUpdates.includeOnlineCaption": "Checks the update feeds of apps that publish one, such as many Electron apps. The app’s own updater installs the update.",
+  "appUpdates.openAppStore": "Open the Microsoft Store",
+  "appUpdates.storeHint": "Opens the Microsoft Store, where this update is installed",
+  "appUpdates.packageMissing": "winget is not installed, so apps cannot be updated from here yet.",
+  "win.appUpdates.includeWingetCaption": "Checks every app winget recognizes, also ones it did not install. winget installs these updates here; some ask for administrator approval.",
+  "win.appUpdates.lastSource": "At least one source stays on.",
+  "win.appUpdates.notificationsOff": "Notifications are turned off for this app in Windows.",
+  "win.appUpdates.confirmTitle": "Update the selected apps?",
+  "win.appUpdates.confirmPackagesFormat": "winget will download and install the latest version of %d apps, one after another. By continuing you accept their license agreements.",
+  "win.appUpdates.confirmStoreNote": "Microsoft Store apps open in the Store, which installs their updates.",
+  "win.appUpdates.idUnresolved": "winget shortened this app’s id. Update it from the package manager."
+}

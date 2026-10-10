@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Zavrieť pri kliknutí mimo",
+  "win.scratchpad.alwaysOnTop": "Ponechať nad ostatnými oknami",
+  "win.scratchpad.alwaysOnTopCaption": "Poznámkový blok sa vznáša nad všetkými aplikáciami, kým ho nezavriete.",
+  "win.scratchpad.appearanceTitle": "Vzhľad",
+  "win.scratchpad.shortcutToggle": "Globálna skratka",
+  "win.scratchpad.find": "Hľadať",
+  "win.scratchpad.findNext": "Ďalšia zhoda (F3)",
+  "win.scratchpad.findPrevious": "Predchádzajúca zhoda (Shift+F3)",
+  "win.scratchpad.replace": "Nahradiť",
+  "win.scratchpad.replaceAll": "Nahradiť všetko",
+  "win.scratchpad.replaceWith": "Nahradiť čím",
+  "win.scratchpad.plainText": "Obyčajný text",
+  "win.scratchpad.markdown": "Markdown"
+}

@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "點一下外部時關閉",
+  "win.scratchpad.alwaysOnTop": "保持在其他視窗上方",
+  "win.scratchpad.alwaysOnTopCaption": "在你關閉之前，草稿板會一直浮在所有 App 上方。",
+  "win.scratchpad.appearanceTitle": "外觀",
+  "win.scratchpad.shortcutToggle": "全域快速鍵",
+  "win.scratchpad.find": "尋找",
+  "win.scratchpad.findNext": "下一個相符項目（F3）",
+  "win.scratchpad.findPrevious": "上一個相符項目（Shift+F3）",
+  "win.scratchpad.replace": "取代",
+  "win.scratchpad.replaceAll": "全部取代",
+  "win.scratchpad.replaceWith": "取代為",
+  "win.scratchpad.plainText": "純文字",
+  "win.scratchpad.markdown": "Markdown"
+}
