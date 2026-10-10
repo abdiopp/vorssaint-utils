@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Busca versiones más nuevas de las apps de este PC y te ayuda a completar cada actualización desde su origen.",
+  "appUpdates.coverageNote": "Revisa el catálogo de winget, Microsoft Store y los canales de actualización de las apps que publican uno. Cada actualización se instala desde su fuente original.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "Incluir apps que winget puede actualizar",
+  "appUpdates.includeStoreToggle": "Incluir apps de Microsoft Store",
+  "appUpdates.includeStoreCaption": "Consulta las versiones de la Store mediante winget, usando la región de este PC. Microsoft Store instala estas actualizaciones.",
+  "appUpdates.includeOnlineCaption": "Revisa los canales de actualización de las apps que publican uno, como muchas apps de Electron. El actualizador propio de la app instala la actualización.",
+  "appUpdates.openAppStore": "Abrir Microsoft Store",
+  "appUpdates.storeHint": "Abre Microsoft Store, donde se instala esta actualización",
+  "appUpdates.packageMissing": "winget no está instalado, así que todavía no se pueden actualizar apps desde aquí.",
+  "win.appUpdates.includeWingetCaption": "Revisa todas las apps que winget reconoce, también las que no instaló. winget instala estas actualizaciones aquí; algunas piden aprobación de administrador.",
+  "win.appUpdates.lastSource": "Al menos una fuente sigue activada.",
+  "win.appUpdates.notificationsOff": "Las notificaciones están desactivadas para esta app en Windows.",
+  "win.appUpdates.confirmTitle": "¿Actualizar las apps seleccionadas?",
+  "win.appUpdates.confirmPackagesFormat": "winget descargará e instalará la última versión de %d apps, una tras otra. Al continuar aceptas sus contratos de licencia.",
+  "win.appUpdates.confirmStoreNote": "Las apps de Microsoft Store se abren en la Store, que instala sus actualizaciones.",
+  "win.appUpdates.idUnresolved": "winget acortó el identificador de esta app. Actualízala desde el gestor de paquetes."
+}

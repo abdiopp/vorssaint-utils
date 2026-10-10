@@ -1,0 +1,27 @@
+// App identity for "apps to leave alone" and the app picker (input fixes).
+WindowFromPoint
+GetAncestor
+GetWindowRect
+GetForegroundWindow
+GetWindowThreadProcessId
+FindWindowEx
+EnumWindows
+IsWindowVisible
+GetWindowTextLength
+GetWindowLongPtr
+DwmGetWindowAttribute
+SetWinEventHook
+UnhookWinEvent
+GetMessage
+TranslateMessage
+DispatchMessage
+PostThreadMessage
+GetCurrentThreadId
+OpenProcess
+QueryFullProcessImageName
+CloseHandle
+EVENT_SYSTEM_FOREGROUND
+WINEVENT_OUTOFCONTEXT
+GET_ANCESTOR_FLAGS
+WINDOW_EX_STYLE
+DWMWINDOWATTRIBUTE

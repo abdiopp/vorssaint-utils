@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "Gezogene Dateien beim Infobereichssymbol behalten",
+  "Strings.shelfDockMenuBar": "Beim Infobereichssymbol",
+  "win.shelf.dockTray": "Beim Infobereichssymbol",
+  "win.shelf.dropZoneToggle": "Gezogene Dateien beim Infobereichssymbol behalten",
+  "win.shelf.dropZoneCaption": "Während du eine Datei ziehst, erscheint eine kleine Ablage beim Infobereichssymbol (oder oben in der Mitte). Zeige darauf, um die Ablage zu öffnen; was du ablegst, bleibt dort als Pille mit einer Anzahl.",
+  "win.shelf.shakeCaption": "Schüttle den Zeiger beim Ziehen schnell hin und her, um die Ablage beim Cursor erscheinen zu lassen.",
+  "win.shelf.explorerSelection": "Datei-Explorer-Auswahl per Kurzbefehl hinzufügen",
+  "win.shelf.explorerSelectionCaption": "Ist der Datei-Explorer im Vordergrund, öffnet der Kurzbefehl die Ablage bereits mit den ausgewählten Dateien. Ohne Auswahl öffnet sie sich wie gewohnt.",
+  "win.shelf.triggersTitle": "Öffnen mit",
+  "win.shelf.exclusionsCaption": "Schütteln, die Ablagezone und das Hervorschauen am Bildschirmrand bleiben bei Ziehvorgängen aus diesen Apps aus. Kurzbefehl und Jetzt öffnen funktionieren weiter.",
+  "win.shelf.addApp": "App hinzufügen…",
+  "win.shelf.applications": "Apps",
+  "win.shelf.showInExplorer": "Im Datei-Explorer anzeigen",
+  "win.shelf.expandPile": "Ausklappen",
+  "win.shelf.collapsePile": "Einklappen"
+}

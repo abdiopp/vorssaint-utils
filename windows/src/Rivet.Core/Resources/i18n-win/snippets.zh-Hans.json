@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Enter 插入 · Esc 关闭",
+  "snippets.enableCaption": "在任何地方输入触发词，它就会变成对应文本。一切都只在这台电脑上。",
+  "snippets.dateTimeStyleLocaleNote": "命名样式会保存电脑地区此刻使用的格式。",
+  "win.snippets.limitsNote": "片段不会在密码字段中展开，也无法作用于以管理员身份运行的 App。"
+}

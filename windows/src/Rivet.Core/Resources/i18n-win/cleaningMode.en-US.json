@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "Locks the keyboard so you can clean it safely.",
+  "Strings.cleaningOverlayMouseHint": "Your mouse and touchpad still work",
+  "win.cleaningMode.overlaySubtitle": "Press Esc 5 times to unlock",
+  "win.cleaningMode.mouseHint": "Your mouse and touchpad still work",
+  "win.cleaningMode.unlockCaption": "Each press must come within 6 seconds of the previous one. Any other key starts over. You can also click Unlock.",
+  "win.cleaningMode.limitsTitle": "What Windows never lets an app block",
+  "win.cleaningMode.limits": "Ctrl+Alt+Del and Win+L still work, and so do some laptop keys handled by the firmware (brightness, power). Typing into apps that run as administrator may not be blocked.",
+  "win.cleaningMode.howTitle": "How it works",
+  "win.cleaningMode.couldNotLock": "The keyboard could not be locked.",
+  "win.cleaningMode.endedNotResponding": "Cleaning Mode ended because the app stopped responding.",
+  "win.cleaningMode.endedHooksLost": "Cleaning Mode ended because Windows stopped sending keyboard events to the app."
+}

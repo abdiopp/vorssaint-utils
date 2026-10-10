@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Fermer si je clique à l’extérieur",
+  "win.scratchpad.alwaysOnTop": "Garder au-dessus des autres fenêtres",
+  "win.scratchpad.alwaysOnTopCaption": "Le brouillon flotte au-dessus de toutes les apps jusqu’à ce que vous le fermiez.",
+  "win.scratchpad.appearanceTitle": "Apparence",
+  "win.scratchpad.shortcutToggle": "Raccourci global",
+  "win.scratchpad.find": "Rechercher",
+  "win.scratchpad.findNext": "Occurrence suivante (F3)",
+  "win.scratchpad.findPrevious": "Occurrence précédente (Maj+F3)",
+  "win.scratchpad.replace": "Remplacer",
+  "win.scratchpad.replaceAll": "Tout remplacer",
+  "win.scratchpad.replaceWith": "Remplacer par",
+  "win.scratchpad.plainText": "Texte brut",
+  "win.scratchpad.markdown": "Markdown"
+}

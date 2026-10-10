@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Prístup ku kamere je vypnutý v nastavení ochrany osobných údajov vo Windowse.",
+  "win.cameraPreview.openPrivacySettings": "Otvoriť nastavenie ochrany osobných údajov…",
+  "win.cameraPreview.unavailableMessage": "Kameru sa nepodarilo spustiť. Skúste ju otvoriť znova.",
+  "win.cameraPreview.retry": "Otvoriť kameru",
+  "win.cameraPreview.permissionRequired": "Vyžaduje sa povolenie: Kamera",
+  "win.cameraPreview.notGranted": "Neudelené. V Nastavení systému Windows zapnite „Prístup ku kamere“ a „Povoliť počítačovým aplikáciám prístup ku kamere“.",
+  "win.cameraPreview.chooseCamera": "Vybrať kameru",
+  "win.cameraPreview.shortcutToggle": "Globálna skratka",
+  "win.cameraPreview.privacyTitle": "Nič sa nenahráva",
+  "win.cameraPreview.privacyCaption": "Kamera beží iba počas otvoreného náhľadu a nič sa neukladá ani nikam neodosiela.",
+  "win.cameraPreview.dismissTitle": "Zatvorenie náhľadu",
+  "win.cameraPreview.dismissCaption": "Stlačte Esc, kliknite kamkoľvek inam alebo prepnite na inú aplikáciu. Kontrolka kamery okamžite zhasne."
+}

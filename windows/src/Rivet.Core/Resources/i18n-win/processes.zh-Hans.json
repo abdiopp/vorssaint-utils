@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "这台电脑上的监听端口",
+  "killProcess.groupCaption": "将辅助进程（如浏览器标签页）归并到启动它们的同一程序下。",
+  "win.processes.moreActions": "更多操作",
+  "win.processes.protected": "Windows 需要此进程，无法在这里结束。",
+  "win.processes.noWindowsNote": "此进程没有可关闭的窗口，因此会立即结束，其中未保存的工作将丢失。",
+  "win.processes.confirmRestartFormat": "重新启动 %@？",
+  "win.processes.accessDeniedFormat": "Windows 不允许本 App 结束“%@”，因为它以管理员身份或其他用户身份运行。请以管理员身份重新启动本 App 后再结束它。",
+  "win.processes.relaunchFailedFormat": "%@ 已退出，但无法再次启动。",
+  "win.processes.adminTitle": "管理员和其他用户的进程",
+  "win.processes.adminNote": "只有在本 App 以管理员身份运行时才能结束它们。",
+  "win.processes.openInBrowser": "在浏览器中打开",
+  "win.processes.showUdp": "显示 UDP 套接字",
+  "win.processes.showUdpCaption": "UDP 没有监听状态，因此会列出所有打开的 UDP 套接字。"
+}

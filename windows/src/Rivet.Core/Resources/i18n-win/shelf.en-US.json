@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "Keep dragged files near the tray icon",
+  "Strings.shelfDockMenuBar": "Near the tray icon",
+  "win.shelf.dockTray": "Near the tray icon",
+  "win.shelf.dropZoneToggle": "Keep dragged files near the tray icon",
+  "win.shelf.dropZoneCaption": "While you drag a file, a small shelf appears near the tray icon (or at the top center). Hover it to open the shelf; whatever you drop stays there as a pill with a count.",
+  "win.shelf.shakeCaption": "Shake the pointer quickly from side to side while dragging something to summon the shelf near the cursor.",
+  "win.shelf.explorerSelection": "Add the File Explorer selection with the shortcut",
+  "win.shelf.explorerSelectionCaption": "With File Explorer in front, the shortcut opens the shelf with the selected files already in it. With nothing selected, it opens as usual.",
+  "win.shelf.triggersTitle": "Ways to open",
+  "win.shelf.exclusionsCaption": "Shaking, the drop zone and the screen-edge peek stay off for drags started in these apps. The shortcut and Open now still work.",
+  "win.shelf.addApp": "Add app…",
+  "win.shelf.applications": "Applications",
+  "win.shelf.showInExplorer": "Show in File Explorer",
+  "win.shelf.expandPile": "Expand",
+  "win.shelf.collapsePile": "Collapse"
+}

@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Sucht nach neueren Versionen der Apps auf diesem PC und hilft dir, jedes Update über seine ursprüngliche Quelle abzuschließen.",
+  "appUpdates.coverageNote": "Prüft den Katalog von winget, den Microsoft Store und die Update-Feeds von Apps, die einen veröffentlichen. Updates werden über die ursprüngliche Quelle installiert.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "Apps einbeziehen, die winget aktualisieren kann",
+  "appUpdates.includeStoreToggle": "Microsoft Store-Apps einbeziehen",
+  "appUpdates.includeStoreCaption": "Prüft die Store-Versionen über winget für die Region dieses PCs. Der Microsoft Store installiert diese Updates.",
+  "appUpdates.includeOnlineCaption": "Prüft die Update-Feeds von Apps, die einen veröffentlichen, etwa viele Electron-Apps. Das Update-Programm der App installiert das Update.",
+  "appUpdates.openAppStore": "Microsoft Store öffnen",
+  "appUpdates.storeHint": "Öffnet den Microsoft Store, wo dieses Update installiert wird",
+  "appUpdates.packageMissing": "winget ist nicht installiert, deshalb lassen sich Apps von hier noch nicht aktualisieren.",
+  "win.appUpdates.includeWingetCaption": "Prüft alle Apps, die winget erkennt, auch solche, die es nicht installiert hat. winget installiert diese Updates hier; manche fragen nach Administratorrechten.",
+  "win.appUpdates.lastSource": "Mindestens eine Quelle bleibt aktiv.",
+  "win.appUpdates.notificationsOff": "Benachrichtigungen sind für diese App in Windows deaktiviert.",
+  "win.appUpdates.confirmTitle": "Ausgewählte Apps aktualisieren?",
+  "win.appUpdates.confirmPackagesFormat": "winget lädt die neueste Version von %d Apps nacheinander herunter und installiert sie. Wenn du fortfährst, akzeptierst du deren Lizenzvereinbarungen.",
+  "win.appUpdates.confirmStoreNote": "Microsoft Store-Apps werden im Store geöffnet, der ihre Updates installiert.",
+  "win.appUpdates.idUnresolved": "winget hat die ID dieser App gekürzt. Aktualisiere sie über die Paketverwaltung."
+}

@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "Systemton",
+  "win.recordingEditor.showInFolder": "Im Ordner anzeigen",
+  "win.recordingEditor.saveTo": "Sichern unter…",
+  "win.recordingEditor.mp4Unavailable": "Zum Sichern von Videos wird Windows Media Foundation benötigt, das auf diesem PC fehlt (installiere in Windows N-Editionen das Media Feature Pack). Ein GIF kannst du trotzdem sichern.",
+  "win.recordingEditor.openFailed": "Diese Aufnahme kann auf diesem PC nicht abgespielt werden. Sichern behält die originale Videodatei, damit du sie anderswo öffnen kannst.",
+  "win.recordingEditor.openSample": "Beispielaufnahme im Editor öffnen",
+  "win.recordingEditor.videoFilter": "MPEG-4-Video",
+  "win.recordingEditor.imageFilter": "Bilder",
+  "recorderExport.previewNote": "Gilt für das gesicherte und kopierte Video und GIF. Die Bearbeitungsvorschau bleibt bei 1×; die Originalaufnahme bleibt unverändert."
+}

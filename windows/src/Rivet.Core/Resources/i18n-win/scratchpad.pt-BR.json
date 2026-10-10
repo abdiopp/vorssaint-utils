@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Fechar ao clicar fora",
+  "win.scratchpad.alwaysOnTop": "Manter acima das outras janelas",
+  "win.scratchpad.alwaysOnTopCaption": "O rascunho flutua sobre todos os apps até você fechá-lo.",
+  "win.scratchpad.appearanceTitle": "Aparência",
+  "win.scratchpad.shortcutToggle": "Atalho global",
+  "win.scratchpad.find": "Localizar",
+  "win.scratchpad.findNext": "Próxima ocorrência (F3)",
+  "win.scratchpad.findPrevious": "Ocorrência anterior (Shift+F3)",
+  "win.scratchpad.replace": "Substituir",
+  "win.scratchpad.replaceAll": "Substituir tudo",
+  "win.scratchpad.replaceWith": "Substituir por",
+  "win.scratchpad.plainText": "Texto simples",
+  "win.scratchpad.markdown": "Markdown"
+}

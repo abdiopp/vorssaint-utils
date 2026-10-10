@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Intro inserta · Esc cierra",
+  "snippets.enableCaption": "Escribe un disparador en cualquier lugar y se convierte en su texto. Todo queda en este PC.",
+  "snippets.dateTimeStyleLocaleNote": "Un estilo con nombre guarda el formato que usa la región de tu PC ahora mismo.",
+  "win.snippets.limitsNote": "Los fragmentos nunca se expanden en campos de contraseña y no llegan a las apps que se ejecutan como administrador."
+}

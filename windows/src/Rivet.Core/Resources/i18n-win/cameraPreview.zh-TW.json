@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Windows 隱私權設定中已關閉相機存取權。",
+  "win.cameraPreview.openPrivacySettings": "開啟隱私權設定…",
+  "win.cameraPreview.unavailableMessage": "無法啟動相機，請嘗試重新打開。",
+  "win.cameraPreview.retry": "打開相機",
+  "win.cameraPreview.permissionRequired": "需要權限：相機",
+  "win.cameraPreview.notGranted": "未授予。請在 Windows 設定中開啟「相機存取」和「允許桌面應用程式存取您的相機」。",
+  "win.cameraPreview.chooseCamera": "選擇相機",
+  "win.cameraPreview.shortcutToggle": "全域快速鍵",
+  "win.cameraPreview.privacyTitle": "不會錄下任何內容",
+  "win.cameraPreview.privacyCaption": "相機只在預覽開啟時運作，不會儲存或傳送任何內容。",
+  "win.cameraPreview.dismissTitle": "關閉預覽",
+  "win.cameraPreview.dismissCaption": "按 Esc、按一下其他任何位置或切換到其他 App。相機指示燈會立即熄滅。"
+}

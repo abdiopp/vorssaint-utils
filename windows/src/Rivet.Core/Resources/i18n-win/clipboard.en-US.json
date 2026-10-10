@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "Can't type into an app running as administrator.",
+  "win.clipboard.autoClearTitle": "Auto clear",
+  "win.clipboard.browseApp": "Choose a program…",
+  "clipboard.localNote": "Everything stays on this PC. Very large items are ignored.",
+  "clipboard.shortcutCaption": "Opens a quick window with search, pinned items and Ctrl+1 to Ctrl+9 shortcuts for pasting into the previous app.",
+  "clipboard.shortcutHint": "Click a card to paste it into the previous app. Ctrl-click selects several; Ctrl+C copies without pasting.",
+  "clipboard.commandClickShortcut": "Ctrl+Click",
+  "Strings.urlCleanerLocalNote": "Local. No network.",
+  "clipboard.autoClearOnSleep": "Clear clipboard on computer sleep"
+}

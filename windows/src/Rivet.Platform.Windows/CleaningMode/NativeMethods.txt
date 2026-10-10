@@ -1,0 +1,10 @@
+// Cleaning Mode: session changes, foreground changes, last input, process paths.
+WTSRegisterSessionNotification
+SetWinEventHook
+UnhookWinEvent
+GetWindowThreadProcessId
+OpenProcess
+QueryFullProcessImageName
+GetLastInputInfo
+MessageBeep
+LASTINPUTINFO

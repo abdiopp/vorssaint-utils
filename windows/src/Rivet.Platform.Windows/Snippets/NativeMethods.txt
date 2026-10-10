@@ -1,0 +1,8 @@
+// Text snippets: layout-aware key translation and the expansion sound.
+ToUnicodeEx
+GetKeyboardLayout
+GetKeyState
+GetForegroundWindow
+GetWindowThreadProcessId
+PlaySound
+SND_FLAGS

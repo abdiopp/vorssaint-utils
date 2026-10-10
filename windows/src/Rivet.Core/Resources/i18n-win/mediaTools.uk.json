@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "Цей формат не підтримується на цьому ПК.",
+  "win.mediaTools.unsupported": "Цей формат не підтримується на цьому ПК.",
+  "win.mediaTools.videoUnavailable": "Кодування відео недоступне: немає Windows Media Foundation (у випусках Windows N установіть Media Feature Pack).",
+  "win.mediaTools.frameUnavailable": "Кадр відео недоступний.",
+  "win.mediaTools.ocrUnavailable": "Розпізнавання тексту недоступне. Додайте мову з компонентом «Оптичне розпізнавання символів» у розділі Настройки Windows › Час і мова › Мова та регіон.",
+  "win.mediaTools.heicMissing": "Для збереження у HEIC потрібні «Розширення для зображень HEIF» з Microsoft Store. Виберіть інший формат або встановіть розширення.",
+  "win.mediaTools.heicHint": "HEIC з’явиться тут після встановлення «Розширень для зображень HEIF» з Microsoft Store.",
+  "win.mediaTools.notEnoughSpace": "Недостатньо вільного місця на диску, щоб відкрити кліп у редакторі (вільними мають залишатися 500 МБ).",
+  "win.mediaTools.textFile": "Текстовий файл",
+  "win.mediaTools.insertToken": "Вставити токен імені",
+  "win.mediaTools.previewOutputFormat": "Результат: %@",
+  "Strings.mediaOpenInFinder": "Показати"
+}

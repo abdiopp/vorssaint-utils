@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rivet.Core\Rivet.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\tools\i18n\data\_meta.json" Link="Data\_meta.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

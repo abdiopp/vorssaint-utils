@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "系統聲音",
+  "win.recordingEditor.showInFolder": "在資料夾中顯示",
+  "win.recordingEditor.saveTo": "儲存到…",
+  "win.recordingEditor.mp4Unavailable": "儲存影片需要 Windows Media Foundation，但這台電腦沒有安裝（Windows N 版本請安裝 Media Feature Pack）。你仍可儲存為 GIF。",
+  "win.recordingEditor.openFailed": "無法在這台電腦上播放此錄影。儲存會保留原始影片檔案，方便你在其他地方開啟。",
+  "win.recordingEditor.openSample": "在編輯器中開啟範例錄影",
+  "win.recordingEditor.videoFilter": "MPEG-4 影片",
+  "win.recordingEditor.imageFilter": "圖片",
+  "recorderExport.previewNote": "適用於儲存和複製的影片及 GIF。編輯預覽維持 1×，原始錄影不會變更。"
+}

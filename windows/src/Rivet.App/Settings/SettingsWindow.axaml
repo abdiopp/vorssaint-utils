@@ -1,0 +1,80 @@
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:s="using:Rivet.App.Settings"
+        xmlns:c="using:Rivet.App.Controls"
+        xmlns:ic="using:FluentIcons.Avalonia"
+        x:Class="Rivet.App.Settings.SettingsWindow"
+        x:DataType="s:SettingsViewModel"
+        Title="{Binding WindowTitle}"
+        Width="1080" Height="760" MinWidth="860" MinHeight="560"
+        WindowStartupLocation="CenterScreen">
+  <Grid ColumnDefinitions="272,*">
+    <!-- Sidebar -->
+    <Grid RowDefinitions="Auto,Auto,*" Margin="12,10,6,12" RowSpacing="10">
+      <Grid ColumnDefinitions="Auto,Auto,*" ColumnSpacing="2">
+        <Button Classes="icon" Command="{Binding GoBackCommand}" IsEnabled="{Binding CanGoBack}">
+          <ic:SymbolIcon Symbol="ArrowLeft" FontSize="16" />
+        </Button>
+        <Button Grid.Column="1" Classes="icon" Command="{Binding GoForwardCommand}" IsEnabled="{Binding CanGoForward}">
+          <ic:SymbolIcon Symbol="ArrowRight" FontSize="16" />
+        </Button>
+      </Grid>
+      <TextBox Grid.Row="1" Text="{Binding SearchText}" PlaceholderText="{Binding SearchWatermark}">
+        <TextBox.InnerLeftContent>
+          <ic:SymbolIcon Symbol="Search" FontSize="14" Margin="8,0,0,0" Opacity="0.6" />
+        </TextBox.InnerLeftContent>
+      </TextBox>
+      <ScrollViewer Grid.Row="2" HorizontalScrollBarVisibility="Disabled">
+        <Panel>
+          <ItemsControl ItemsSource="{Binding Groups}" IsVisible="{Binding !IsSearching}">
+            <ItemsControl.ItemTemplate>
+              <DataTemplate x:DataType="s:SidebarGroup">
+                <StackPanel Spacing="1" Margin="0,0,0,10">
+                  <TextBlock Text="{Binding Title}" Classes="sectionTitle" Margin="10,4,0,4" />
+                  <ItemsControl ItemsSource="{Binding Items}">
+                    <ItemsControl.ItemTemplate>
+                      <DataTemplate x:DataType="s:SidebarItem">
+                        <Button Classes="row sidebar" Classes.selected="{Binding IsSelected}"
+                                Command="{Binding $parent[Window].((s:SettingsViewModel)DataContext).OpenPageCommand}"
+                                CommandParameter="{Binding PageId}">
+                          <StackPanel Orientation="Horizontal" Spacing="12">
+                            <ic:SymbolIcon Symbol="{Binding Icon}" FontSize="16" Foreground="{DynamicResource AccentBrush}" />
+                            <TextBlock Text="{Binding Title}" FontSize="13" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" />
+                          </StackPanel>
+                        </Button>
+                      </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                  </ItemsControl>
+                </StackPanel>
+              </DataTemplate>
+            </ItemsControl.ItemTemplate>
+          </ItemsControl>
+
+          <ItemsControl ItemsSource="{Binding SearchResults}" IsVisible="{Binding IsSearching}">
+            <ItemsControl.ItemTemplate>
+              <DataTemplate x:DataType="s:SearchHit">
+                <Button Classes="row" Command="{Binding $parent[Window].((s:SettingsViewModel)DataContext).OpenHitCommand}"
+                        CommandParameter="{Binding}">
+                  <Grid ColumnDefinitions="Auto,*" ColumnSpacing="12">
+                    <ic:SymbolIcon Symbol="{Binding Icon}" FontSize="16" Foreground="{DynamicResource AccentBrush}" />
+                    <StackPanel Grid.Column="1">
+                      <TextBlock Text="{Binding Title}" FontSize="13" TextTrimming="CharacterEllipsis" />
+                      <TextBlock Text="{Binding Detail}" Classes="caption" FontSize="11"
+                                 IsVisible="{Binding Detail, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+                    </StackPanel>
+                  </Grid>
+                </Button>
+              </DataTemplate>
+            </ItemsControl.ItemTemplate>
+          </ItemsControl>
+        </Panel>
+      </ScrollViewer>
+    </Grid>
+
+    <!-- Page -->
+    <ScrollViewer Grid.Column="1" Name="PageScroller" HorizontalScrollBarVisibility="Disabled">
+      <ContentControl Content="{Binding CurrentPage}" MaxWidth="920" Margin="28,22,32,32" HorizontalAlignment="Stretch" />
+    </ScrollViewer>
+  </Grid>
+</Window>

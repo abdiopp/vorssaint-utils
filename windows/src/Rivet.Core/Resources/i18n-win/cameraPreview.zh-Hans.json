@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Windows 隐私设置中已关闭摄像头访问权限。",
+  "win.cameraPreview.openPrivacySettings": "打开隐私设置…",
+  "win.cameraPreview.unavailableMessage": "无法启动摄像头，请尝试重新打开。",
+  "win.cameraPreview.retry": "打开摄像头",
+  "win.cameraPreview.permissionRequired": "需要权限：摄像头",
+  "win.cameraPreview.notGranted": "未授予。请在 Windows 设置中开启“摄像头访问”和“允许桌面应用访问你的摄像头”。",
+  "win.cameraPreview.chooseCamera": "选择摄像头",
+  "win.cameraPreview.shortcutToggle": "全局快捷键",
+  "win.cameraPreview.privacyTitle": "不会录制任何内容",
+  "win.cameraPreview.privacyCaption": "摄像头只在预览打开时运行，不会保存或发送任何内容。",
+  "win.cameraPreview.dismissTitle": "关闭预览",
+  "win.cameraPreview.dismissCaption": "按 Esc、点击其他任意位置或切换到其他 App。摄像头指示灯会立即熄灭。"
+}

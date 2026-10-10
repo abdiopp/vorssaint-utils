@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Закривати при клацанні зовні",
+  "win.scratchpad.alwaysOnTop": "Поверх інших вікон",
+  "win.scratchpad.alwaysOnTopCaption": "Нотатник залишається поверх усіх програм, доки ви його не закриєте.",
+  "win.scratchpad.appearanceTitle": "Вигляд",
+  "win.scratchpad.shortcutToggle": "Глобальне клавіатурне скорочення",
+  "win.scratchpad.find": "Знайти",
+  "win.scratchpad.findNext": "Наступний збіг (F3)",
+  "win.scratchpad.findPrevious": "Попередній збіг (Shift+F3)",
+  "win.scratchpad.replace": "Замінити",
+  "win.scratchpad.replaceAll": "Замінити все",
+  "win.scratchpad.replaceWith": "Замінити на",
+  "win.scratchpad.plainText": "Звичайний текст",
+  "win.scratchpad.markdown": "Markdown"
+}

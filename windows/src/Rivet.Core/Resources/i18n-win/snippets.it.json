@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Invio inserisce · Esc chiude",
+  "snippets.enableCaption": "Digita un trigger ovunque e diventa il suo testo. Tutto resta su questo PC.",
+  "snippets.dateTimeStyleLocaleNote": "Uno stile con nome salva il formato usato ora dall’area geografica del tuo PC.",
+  "win.snippets.limitsNote": "Gli snippet non si espandono mai nei campi password e non raggiungono le app eseguite come amministratore."
+}

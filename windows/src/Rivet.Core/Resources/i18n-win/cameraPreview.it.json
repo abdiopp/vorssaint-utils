@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "L’accesso alla fotocamera è disattivato nelle impostazioni della privacy di Windows.",
+  "win.cameraPreview.openPrivacySettings": "Apri le impostazioni della privacy…",
+  "win.cameraPreview.unavailableMessage": "Impossibile avviare la fotocamera. Prova ad aprirla di nuovo.",
+  "win.cameraPreview.retry": "Apri fotocamera",
+  "win.cameraPreview.permissionRequired": "Autorizzazione necessaria: Fotocamera",
+  "win.cameraPreview.notGranted": "Non concessa. Attiva “Accesso alla fotocamera” e “Consenti alle app desktop di accedere alla fotocamera” nelle Impostazioni di Windows.",
+  "win.cameraPreview.chooseCamera": "Scegli fotocamera",
+  "win.cameraPreview.shortcutToggle": "Scorciatoia globale",
+  "win.cameraPreview.privacyTitle": "Non viene registrato nulla",
+  "win.cameraPreview.privacyCaption": "La fotocamera è attiva solo mentre l’anteprima è aperta, e nulla viene salvato o inviato altrove.",
+  "win.cameraPreview.dismissTitle": "Chiudere l’anteprima",
+  "win.cameraPreview.dismissCaption": "Premi Esc, fai clic in un altro punto o passa a un’altra app. La spia della fotocamera si spegne subito."
+}

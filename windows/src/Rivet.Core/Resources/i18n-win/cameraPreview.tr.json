@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Kamera erişimi Windows gizlilik ayarlarında kapalı.",
+  "win.cameraPreview.openPrivacySettings": "Gizlilik ayarlarını aç…",
+  "win.cameraPreview.unavailableMessage": "Kamera başlatılamadı. Yeniden açmayı dene.",
+  "win.cameraPreview.retry": "Kamerayı aç",
+  "win.cameraPreview.permissionRequired": "İzin gerekli: Kamera",
+  "win.cameraPreview.notGranted": "İzin verilmedi. Windows Ayarlar’da “Kamera erişimi” ve “Masaüstü uygulamalarının kameranıza erişmesine izin verin” seçeneklerini aç.",
+  "win.cameraPreview.chooseCamera": "Kamera seç",
+  "win.cameraPreview.shortcutToggle": "Genel kısayol",
+  "win.cameraPreview.privacyTitle": "Hiçbir şey kaydedilmez",
+  "win.cameraPreview.privacyCaption": "Kamera yalnızca önizleme açıkken çalışır; hiçbir şey kaydedilmez veya bir yere gönderilmez.",
+  "win.cameraPreview.dismissTitle": "Önizlemeyi kapatma",
+  "win.cameraPreview.dismissCaption": "Esc’ye bas, başka herhangi bir yere tıkla veya başka bir uygulamaya geç. Kamera ışığı hemen söner."
+}

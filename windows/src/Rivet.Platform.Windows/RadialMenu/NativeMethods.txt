@@ -1,0 +1,19 @@
+// Radial menu: launching and activating apps, shell icons and names, window layouts.
+EnumWindows
+GetWindow
+IsIconic
+IsZoomed
+GetWindowRect
+GetShellWindow
+DwmGetWindowAttribute
+SHGetFileInfo
+SHFILEINFOW
+SHGFI_FLAGS
+SHCreateItemFromParsingName
+IShellItemImageFactory
+SIIGBF
+GetDIBits
+GetObject
+BITMAP
+DeleteDC
+CreateCompatibleDC

@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "這台電腦上的監聽中連接埠",
+  "killProcess.groupCaption": "將輔助處理程序（例如瀏覽器分頁）歸併到啟動它們的同一程式底下。",
+  "win.processes.moreActions": "更多動作",
+  "win.processes.protected": "Windows 需要此處理程序，無法在這裡結束。",
+  "win.processes.noWindowsNote": "此處理程序沒有可關閉的視窗，因此會立即結束，其中未儲存的工作將會遺失。",
+  "win.processes.confirmRestartFormat": "重新啟動 %@？",
+  "win.processes.accessDeniedFormat": "Windows 不允許本 App 結束「%@」，因為它以系統管理員身分或其他使用者身分執行。請以系統管理員身分重新啟動本 App 後再結束它。",
+  "win.processes.relaunchFailedFormat": "%@ 已結束，但無法再次啟動。",
+  "win.processes.adminTitle": "系統管理員和其他使用者的處理程序",
+  "win.processes.adminNote": "只有在本 App 以系統管理員身分執行時才能結束它們。",
+  "win.processes.openInBrowser": "在瀏覽器中開啟",
+  "win.processes.showUdp": "顯示 UDP 通訊端",
+  "win.processes.showUdpCaption": "UDP 沒有監聽狀態，因此會列出所有開啟的 UDP 通訊端。"
+}

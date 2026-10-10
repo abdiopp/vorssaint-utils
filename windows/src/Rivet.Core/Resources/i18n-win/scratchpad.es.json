@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Cerrar al hacer clic fuera",
+  "win.scratchpad.alwaysOnTop": "Mantener sobre otras ventanas",
+  "win.scratchpad.alwaysOnTopCaption": "El borrador flota sobre todas las apps hasta que lo cierres.",
+  "win.scratchpad.appearanceTitle": "Apariencia",
+  "win.scratchpad.shortcutToggle": "Atajo global",
+  "win.scratchpad.find": "Buscar",
+  "win.scratchpad.findNext": "Siguiente coincidencia (F3)",
+  "win.scratchpad.findPrevious": "Coincidencia anterior (Mayús+F3)",
+  "win.scratchpad.replace": "Reemplazar",
+  "win.scratchpad.replaceAll": "Reemplazar todo",
+  "win.scratchpad.replaceWith": "Reemplazar por",
+  "win.scratchpad.plainText": "Texto sin formato",
+  "win.scratchpad.markdown": "Markdown"
+}

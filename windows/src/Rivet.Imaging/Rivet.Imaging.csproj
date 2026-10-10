@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Cross-platform image work on SkiaSharp: annotation rendering, the
+       backdrop shared by the screenshot editor and the recorder, the
+       recorder's frame compositor, GIF encoding and scrolling-capture
+       stitching. Runs (and is tested) on any OS. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Rivet.Imaging</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" />
+    <PackageReference Include="ZXing.Net" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rivet.Core\Rivet.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Rivet.Imaging.Tests" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    The Avalonia UI. Two targets:
+      net10.0-windows…  the real app, wired to Rivet.Platform.Windows
+      net10.0           development build for macOS/Linux and headless UI
+                        tests, wired to Rivet.Platform.Fake
+    Build one with -f, e.g. `dotnet build -f net10.0`.
+  -->
+  <PropertyGroup>
+    <TargetFrameworks>net10.0;$(WindowsTargetFramework)</TargetFrameworks>
+    <RootNamespace>Rivet.App</RootNamespace>
+    <AssemblyName>$(ProductId)</AssemblyName>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+    <OutputType>WinExe</OutputType>
+    <SupportedOSPlatformVersion>$(WindowsMinimumVersion)</SupportedOSPlatformVersion>
+    <ApplicationIcon Condition="Exists('Assets\app.ico')">Assets\app.ico</ApplicationIcon>
+    <DefineConstants>$(DefineConstants);WINDOWS_PLATFORM</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" />
+    <PackageReference Include="Avalonia.Desktop" />
+    <PackageReference Include="Avalonia.Themes.Fluent" />
+    <PackageReference Include="Avalonia.Fonts.Inter" />
+    <PackageReference Include="Avalonia.Controls.ColorPicker" />
+    <PackageReference Include="FluentIcons.Avalonia" />
+    <PackageReference Include="CommunityToolkit.Mvvm" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <PackageReference Include="Markdig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rivet.Core\Rivet.Core.csproj" />
+    <ProjectReference Include="..\Rivet.Imaging\Rivet.Imaging.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+    <ProjectReference Include="..\Rivet.Platform.Windows\Rivet.Platform.Windows.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows' And '$(RuntimeIdentifier)' != 'win-arm64'">
+    <!-- Ships next to the app (x64 only, see docs/modules/systemMonitor.md); not referenced from code. -->
+    <ProjectReference Include="..\Rivet.SensorHelper\Rivet.SensorHelper.csproj" ReferenceOutputAssembly="false" OutputItemType="Content" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) != 'windows'">
+    <ProjectReference Include="..\Rivet.Platform.Fake\Rivet.Platform.Fake.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+    <!-- The toast identity points Windows at this file next to the exe. -->
+    <Content Include="Assets\app-icon.png" CopyToOutputDirectory="PreserveNewest" Link="Assets\app-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Rivet.App.Tests" />
+  </ItemGroup>
+</Project>

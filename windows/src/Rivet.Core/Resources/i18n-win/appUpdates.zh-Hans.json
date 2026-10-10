@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "检查这台电脑上的 App 有没有更新版本，并帮助你从各自的原始来源完成更新。",
+  "appUpdates.coverageNote": "检查 winget 目录、Microsoft Store，以及提供更新源的 App 的更新源。更新通过原始来源安装。",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "包含 winget 可以更新的 App",
+  "appUpdates.includeStoreToggle": "包含 Microsoft Store App",
+  "appUpdates.includeStoreCaption": "通过 winget 并使用这台电脑的地区查询 Store 版本。这些更新由 Microsoft Store 安装。",
+  "appUpdates.includeOnlineCaption": "检查提供更新源的 App（例如许多 Electron App）的更新源。更新由 App 自身的更新程序安装。",
+  "appUpdates.openAppStore": "打开 Microsoft Store",
+  "appUpdates.storeHint": "打开 Microsoft Store，在那里安装此更新",
+  "appUpdates.packageMissing": "没有安装 winget，所以暂时还不能从这里更新 App。",
+  "win.appUpdates.includeWingetCaption": "检查 winget 能识别的所有 App，包括不是由它安装的 App。winget 会在这里安装这些更新；部分更新需要管理员批准。",
+  "win.appUpdates.lastSource": "至少要保留一个来源处于开启状态。",
+  "win.appUpdates.notificationsOff": "Windows 中已关闭此 App 的通知。",
+  "win.appUpdates.confirmTitle": "更新所选 App？",
+  "win.appUpdates.confirmPackagesFormat": "winget 将依次下载并安装 %d 个 App 的最新版本。继续即表示你接受它们的许可协议。",
+  "win.appUpdates.confirmStoreNote": "Microsoft Store App 会在 Store 中打开，并由 Store 安装更新。",
+  "win.appUpdates.idUnresolved": "winget 缩短了此 App 的 ID。请在软件包管理器中更新它。"
+}

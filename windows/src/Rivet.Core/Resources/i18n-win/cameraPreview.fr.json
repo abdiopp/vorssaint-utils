@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "L’accès à la caméra est désactivé dans les paramètres de confidentialité de Windows.",
+  "win.cameraPreview.openPrivacySettings": "Ouvrir les paramètres de confidentialité…",
+  "win.cameraPreview.unavailableMessage": "La caméra n’a pas pu démarrer. Essayez de l’ouvrir à nouveau.",
+  "win.cameraPreview.retry": "Ouvrir la caméra",
+  "win.cameraPreview.permissionRequired": "Autorisation requise : Caméra",
+  "win.cameraPreview.notGranted": "Non accordée. Activez « Accès à la caméra » et « Autoriser les applications de bureau à accéder à votre caméra » dans les Paramètres Windows.",
+  "win.cameraPreview.chooseCamera": "Choisir la caméra",
+  "win.cameraPreview.shortcutToggle": "Raccourci global",
+  "win.cameraPreview.privacyTitle": "Rien n’est enregistré",
+  "win.cameraPreview.privacyCaption": "La caméra ne fonctionne que pendant que l’aperçu est ouvert, et rien n’est enregistré ni envoyé nulle part.",
+  "win.cameraPreview.dismissTitle": "Fermer l’aperçu",
+  "win.cameraPreview.dismissCaption": "Appuyez sur Esc, cliquez ailleurs ou passez à une autre app. Le voyant de la caméra s’éteint aussitôt."
+}

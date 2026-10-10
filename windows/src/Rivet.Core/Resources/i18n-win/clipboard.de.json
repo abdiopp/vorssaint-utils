@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "In eine App, die als Administrator läuft, kann nicht getippt werden.",
+  "win.clipboard.autoClearTitle": "Automatisch leeren",
+  "win.clipboard.browseApp": "Programm auswählen…",
+  "clipboard.localNote": "Alles bleibt auf diesem PC. Sehr große Inhalte werden ignoriert.",
+  "clipboard.shortcutCaption": "Öffnet ein Schnellfenster mit Suche, angehefteten Einträgen und Strg+1 bis Strg+9 zum Einfügen in die vorherige App.",
+  "clipboard.shortcutHint": "Klicke auf eine Karte, um sie in die vorherige App einzufügen. Strg-Klick wählt mehrere aus; Strg+C kopiert ohne Einfügen.",
+  "clipboard.commandClickShortcut": "Strg+Klick",
+  "Strings.urlCleanerLocalNote": "Lokal. Kein Netzwerk.",
+  "clipboard.autoClearOnSleep": "Zwischenablage beim Ruhezustand leeren"
+}

@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "Impossible de taper dans une app exécutée en tant qu’administrateur.",
+  "win.clipboard.autoClearTitle": "Effacement automatique",
+  "win.clipboard.browseApp": "Choisir un programme…",
+  "clipboard.localNote": "Tout reste sur ce PC. Les éléments très volumineux sont ignorés.",
+  "clipboard.shortcutCaption": "Ouvre une fenêtre rapide avec recherche, éléments épinglés et raccourcis Ctrl+1 à Ctrl+9 pour coller dans l’app précédente.",
+  "clipboard.shortcutHint": "Cliquez sur une carte pour la coller dans l’app précédente. Ctrl+clic en sélectionne plusieurs ; Ctrl+C copie sans coller.",
+  "clipboard.commandClickShortcut": "Ctrl+clic",
+  "Strings.urlCleanerLocalNote": "Local. Sans réseau.",
+  "clipboard.autoClearOnSleep": "Vider le presse-papiers à la mise en veille du PC"
+}

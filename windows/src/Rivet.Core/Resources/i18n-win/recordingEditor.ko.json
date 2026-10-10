@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "시스템 소리",
+  "win.recordingEditor.showInFolder": "폴더에 표시",
+  "win.recordingEditor.saveTo": "저장 위치…",
+  "win.recordingEditor.mp4Unavailable": "동영상을 저장하려면 Windows Media Foundation이 필요하지만 이 PC에는 없습니다(Windows N 에디션에서는 Media Feature Pack을 설치하세요). GIF로는 저장할 수 있습니다.",
+  "win.recordingEditor.openFailed": "이 녹화는 이 PC에서 재생할 수 없습니다. 저장을 사용하면 원본 동영상 파일이 유지되므로 다른 곳에서 열 수 있습니다.",
+  "win.recordingEditor.openSample": "편집기에서 샘플 녹화 열기",
+  "win.recordingEditor.videoFilter": "MPEG-4 동영상",
+  "win.recordingEditor.imageFilter": "사진",
+  "recorderExport.previewNote": "저장 및 복사한 동영상과 GIF에 적용됩니다. 편집 미리보기는 1×로 유지되며 원본 녹화는 변경되지 않습니다."
+}

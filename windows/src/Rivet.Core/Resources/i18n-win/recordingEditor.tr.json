@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "Sistem sesi",
+  "win.recordingEditor.showInFolder": "Klasörde göster",
+  "win.recordingEditor.saveTo": "Kaydetme yeri…",
+  "win.recordingEditor.mp4Unavailable": "Video kaydetmek için bu PC’de bulunmayan Windows Media Foundation gerekir (Windows N sürümlerinde Media Feature Pack’i yükle). Yine de GIF olarak kaydedebilirsin.",
+  "win.recordingEditor.openFailed": "Bu kayıt bu PC’de oynatılamıyor. Kaydet, başka bir yerde açabilmen için orijinal video dosyasını korur.",
+  "win.recordingEditor.openSample": "Düzenleyicide örnek bir kayıt aç",
+  "win.recordingEditor.videoFilter": "MPEG-4 video",
+  "win.recordingEditor.imageFilter": "Resimler",
+  "recorderExport.previewNote": "Kaydedilen ve kopyalanan video ile GIF’e uygulanır. Düzenleme önizlemesi 1× hızında kalır; orijinal kayıt değişmez."
+}

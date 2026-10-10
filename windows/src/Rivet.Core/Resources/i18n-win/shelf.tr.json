@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "Sürüklenen dosyaları tepsi simgesinin yanında tut",
+  "Strings.shelfDockMenuBar": "Tepsi simgesinin yanında",
+  "win.shelf.dockTray": "Tepsi simgesinin yanında",
+  "win.shelf.dropZoneToggle": "Sürüklenen dosyaları tepsi simgesinin yanında tut",
+  "win.shelf.dropZoneCaption": "Bir dosyayı sürüklerken tepsi simgesinin yanında (veya üst ortada) küçük bir raf belirir. Rafı açmak için üzerine gel; bıraktıkların orada sayaçlı bir hap olarak kalır.",
+  "win.shelf.shakeCaption": "Bir şey sürüklerken imleci hızla iki yana salla; raf imlecin yanında belirir.",
+  "win.shelf.explorerSelection": "Kısayolla Dosya Gezgini seçimini ekle",
+  "win.shelf.explorerSelectionCaption": "Dosya Gezgini öndeyken kısayol, rafı seçili dosyalar içinde olacak şekilde açar. Hiçbir şey seçili değilse her zamanki gibi açılır.",
+  "win.shelf.triggersTitle": "Açma yolları",
+  "win.shelf.exclusionsCaption": "Bu uygulamalarda başlayan sürüklemelerde sallama, bırakma alanı ve ekran kenarında belirme kapalı kalır. Kısayol ve Şimdi aç çalışmaya devam eder.",
+  "win.shelf.addApp": "Uygulama ekle…",
+  "win.shelf.applications": "Uygulamalar",
+  "win.shelf.showInExplorer": "Dosya Gezgini’nde göster",
+  "win.shelf.expandPile": "Genişlet",
+  "win.shelf.collapsePile": "Daralt"
+}

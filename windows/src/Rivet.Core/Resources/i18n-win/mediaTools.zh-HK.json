@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "這部電腦不支援此格式。",
+  "win.mediaTools.unsupported": "這部電腦不支援此格式。",
+  "win.mediaTools.videoUnavailable": "無法使用影片編碼。缺少 Windows Media Foundation（Windows N 版本請安裝 Media Feature Pack）。",
+  "win.mediaTools.frameUnavailable": "無法取得影片畫格。",
+  "win.mediaTools.ocrUnavailable": "無法使用文字辨識。請在 Windows 設定 › 時間與語言 › 語言與地區中新增包含「光學字元辨識」的語言。",
+  "win.mediaTools.heicMissing": "儲存為 HEIC 需要 Microsoft Store 的「HEIF 影像延伸模組」。請選擇其他格式或安裝該延伸模組。",
+  "win.mediaTools.heicHint": "從 Microsoft Store 安裝「HEIF 影像延伸模組」後，HEIC 就會出現在這裡。",
+  "win.mediaTools.notEnoughSpace": "磁碟可用空間不足，無法在編輯器中開啟此片段（必須保留 500 MB 可用空間）。",
+  "win.mediaTools.textFile": "文字檔",
+  "win.mediaTools.insertToken": "插入名稱標記",
+  "win.mediaTools.previewOutputFormat": "輸出：%@",
+  "Strings.mediaOpenInFinder": "顯示"
+}

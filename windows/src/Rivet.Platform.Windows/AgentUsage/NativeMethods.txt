@@ -1,0 +1,9 @@
+// AI agent usage: file identity, process liveness, awake time.
+GetFileInformationByHandle
+BY_HANDLE_FILE_INFORMATION
+OpenProcess
+GetExitCodeProcess
+GetProcessTimes
+CloseHandle
+QueryUnbiasedInterruptTime
+PROCESS_ACCESS_RIGHTS

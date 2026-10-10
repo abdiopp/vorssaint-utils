@@ -1,0 +1,15 @@
+{
+  "win.scratchpad.closeOnOutsideClick": "Beim Klick außerhalb schließen",
+  "win.scratchpad.alwaysOnTop": "Über anderen Fenstern halten",
+  "win.scratchpad.alwaysOnTopCaption": "Der Zettel schwebt über allen Apps, bis du ihn schließt.",
+  "win.scratchpad.appearanceTitle": "Erscheinungsbild",
+  "win.scratchpad.shortcutToggle": "Globaler Kurzbefehl",
+  "win.scratchpad.find": "Suchen",
+  "win.scratchpad.findNext": "Nächster Treffer (F3)",
+  "win.scratchpad.findPrevious": "Vorheriger Treffer (Umschalt+F3)",
+  "win.scratchpad.replace": "Ersetzen",
+  "win.scratchpad.replaceAll": "Alle ersetzen",
+  "win.scratchpad.replaceWith": "Ersetzen durch",
+  "win.scratchpad.plainText": "Nur Text",
+  "win.scratchpad.markdown": "Markdown"
+}

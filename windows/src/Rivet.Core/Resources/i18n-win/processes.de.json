@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "Lauschende Ports auf diesem PC",
+  "killProcess.groupCaption": "Gruppiert Hilfsprozesse, etwa Browser-Tabs, unter der Instanz desselben Programms, die sie gestartet hat.",
+  "win.processes.moreActions": "Weitere Aktionen",
+  "win.processes.protected": "Windows benötigt diesen Prozess. Er kann von hier nicht beendet werden.",
+  "win.processes.noWindowsNote": "Dieser Prozess hat kein Fenster zum Schließen, daher wird er sofort beendet. Nicht gespeicherte Arbeit darin geht verloren.",
+  "win.processes.confirmRestartFormat": "%@ neu starten?",
+  "win.processes.accessDeniedFormat": "Windows hat der App nicht erlaubt, „%@“ zu beenden, weil es als Administrator oder als anderer Benutzer läuft. Starte diese App als Administrator neu, um es zu beenden.",
+  "win.processes.relaunchFailedFormat": "%@ wurde beendet, konnte aber nicht erneut gestartet werden.",
+  "win.processes.adminTitle": "Prozesse von Administratoren und anderen Benutzern",
+  "win.processes.adminNote": "Sie können nur beendet werden, während diese App als Administrator läuft.",
+  "win.processes.openInBrowser": "Im Browser öffnen",
+  "win.processes.showUdp": "UDP-Sockets anzeigen",
+  "win.processes.showUdpCaption": "UDP hat keinen Lauschzustand, daher wird jeder offene UDP-Socket aufgelistet."
+}

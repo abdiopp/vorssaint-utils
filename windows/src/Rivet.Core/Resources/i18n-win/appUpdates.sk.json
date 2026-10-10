@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Hľadá novšie verzie aplikácií v tomto počítači a pomôže vám dokončiť každú aktualizáciu z jej pôvodného zdroja.",
+  "appUpdates.coverageNote": "Kontroluje katalóg winget, Microsoft Store a kanály aktualizácií aplikácií, ktoré ich zverejňujú. Aktualizácie sa inštalujú cez pôvodný zdroj.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "Zahrnúť aplikácie, ktoré dokáže aktualizovať winget",
+  "appUpdates.includeStoreToggle": "Zahrnúť aplikácie z Microsoft Store",
+  "appUpdates.includeStoreCaption": "Kontroluje verzie v Store cez winget podľa regiónu tohto počítača. Tieto aktualizácie inštaluje Microsoft Store.",
+  "appUpdates.includeOnlineCaption": "Kontroluje kanály aktualizácií aplikácií, ktoré ich zverejňujú, napríklad mnohých aplikácií Electron. Aktualizáciu nainštaluje vlastný aktualizátor aplikácie.",
+  "appUpdates.openAppStore": "Otvoriť Microsoft Store",
+  "appUpdates.storeHint": "Otvorí Microsoft Store, kde sa táto aktualizácia nainštaluje",
+  "appUpdates.packageMissing": "winget nie je nainštalovaný, takže aplikácie sa odtiaľto zatiaľ nedajú aktualizovať.",
+  "win.appUpdates.includeWingetCaption": "Kontroluje všetky aplikácie, ktoré winget rozpozná, aj tie, ktoré sám nenainštaloval. Tieto aktualizácie inštaluje winget priamo tu; niektoré vyžadujú schválenie správcom.",
+  "win.appUpdates.lastSource": "Aspoň jeden zdroj musí zostať zapnutý.",
+  "win.appUpdates.notificationsOff": "Oznámenia pre túto aplikáciu sú vo Windowse vypnuté.",
+  "win.appUpdates.confirmTitle": "Aktualizovať vybrané aplikácie?",
+  "win.appUpdates.confirmPackagesFormat": "winget postupne stiahne a nainštaluje najnovšie verzie vybraných aplikácií (%d). Pokračovaním prijímate ich licenčné zmluvy.",
+  "win.appUpdates.confirmStoreNote": "Aplikácie z Microsoft Store sa otvoria v Store, ktorý nainštaluje ich aktualizácie.",
+  "win.appUpdates.idUnresolved": "winget skrátil ID tejto aplikácie. Aktualizujte ju zo správcu balíkov."
+}

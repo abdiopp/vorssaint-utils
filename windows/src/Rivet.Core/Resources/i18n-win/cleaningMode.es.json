@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "Bloquea el teclado para que puedas limpiarlo con seguridad.",
+  "Strings.cleaningOverlayMouseHint": "El ratón y el panel táctil siguen funcionando",
+  "win.cleaningMode.overlaySubtitle": "Pulsa Esc 5 veces para desbloquear",
+  "win.cleaningMode.mouseHint": "El ratón y el panel táctil siguen funcionando",
+  "win.cleaningMode.unlockCaption": "Cada pulsación debe llegar menos de 6 segundos después de la anterior. Cualquier otra tecla vuelve a empezar la cuenta. También puedes hacer clic en Desbloquear.",
+  "win.cleaningMode.limitsTitle": "Lo que Windows nunca deja bloquear a una app",
+  "win.cleaningMode.limits": "Ctrl+Alt+Supr y Win+L siguen funcionando, igual que algunas teclas del portátil que gestiona el firmware (brillo, encendido). Puede que no se bloquee lo que escribas en apps que se ejecutan como administrador.",
+  "win.cleaningMode.howTitle": "Cómo funciona",
+  "win.cleaningMode.couldNotLock": "No se pudo bloquear el teclado.",
+  "win.cleaningMode.endedNotResponding": "El modo de limpieza terminó porque la app dejó de responder.",
+  "win.cleaningMode.endedHooksLost": "El modo de limpieza terminó porque Windows dejó de enviar eventos del teclado a la app."
+}

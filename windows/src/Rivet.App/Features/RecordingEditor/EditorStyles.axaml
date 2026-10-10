@@ -1,0 +1,217 @@
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!--
+  Recording editor look (spec 02 §3.20). macOS draws the editor dark always;
+  on Windows it follows the app theme, with the stage kept dark in both.
+-->
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Rivet.App.Features.RecordingEditor.EditorStyles">
+  <Styles.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Dark">
+          <SolidColorBrush x:Key="EditorWindowBrush" Color="#1D1D1F" />
+          <LinearGradientBrush x:Key="EditorWindowSheenBrush" StartPoint="0%,0%" EndPoint="0%,100%">
+            <GradientStop Offset="0" Color="#09FFFFFF" />
+            <GradientStop Offset="1" Color="#00FFFFFF" />
+          </LinearGradientBrush>
+          <SolidColorBrush x:Key="EditorBandBrush" Color="#F2262628" />
+          <SolidColorBrush x:Key="EditorHairlineBrush" Color="#16FFFFFF" />
+          <SolidColorBrush x:Key="EditorInspectorBrush" Color="#E6232325" />
+          <SolidColorBrush x:Key="EditorStageBrush" Color="#B8000000" />
+          <SolidColorBrush x:Key="EditorStageBorderBrush" Color="#1FFFFFFF" />
+          <SolidColorBrush x:Key="EditorButtonBrush" Color="#0EFFFFFF" />
+          <SolidColorBrush x:Key="EditorButtonHoverBrush" Color="#17FFFFFF" />
+          <SolidColorBrush x:Key="EditorButtonPressedBrush" Color="#1CFFFFFF" />
+          <SolidColorBrush x:Key="EditorButtonBorderBrush" Color="#14FFFFFF" />
+          <SolidColorBrush x:Key="EditorSubpanelBrush" Color="#0AFFFFFF" />
+          <SolidColorBrush x:Key="EditorChipBrush" Color="#1AFFFFFF" />
+          <SolidColorBrush x:Key="EditorTextBrush" Color="#F2FFFFFF" />
+          <SolidColorBrush x:Key="EditorSecondaryTextBrush" Color="#A6FFFFFF" />
+          <SolidColorBrush x:Key="EditorValueTextBrush" Color="#DBFFFFFF" />
+          <SolidColorBrush x:Key="EditorSectionTextBrush" Color="#9EFFFFFF" />
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Light">
+          <SolidColorBrush x:Key="EditorWindowBrush" Color="#F3F3F3" />
+          <LinearGradientBrush x:Key="EditorWindowSheenBrush" StartPoint="0%,0%" EndPoint="0%,100%">
+            <GradientStop Offset="0" Color="#0AFFFFFF" />
+            <GradientStop Offset="1" Color="#00FFFFFF" />
+          </LinearGradientBrush>
+          <SolidColorBrush x:Key="EditorBandBrush" Color="#FAFBFBFB" />
+          <SolidColorBrush x:Key="EditorHairlineBrush" Color="#17000000" />
+          <SolidColorBrush x:Key="EditorInspectorBrush" Color="#F7FAFAFA" />
+          <SolidColorBrush x:Key="EditorStageBrush" Color="#F21E1E20" />
+          <SolidColorBrush x:Key="EditorStageBorderBrush" Color="#1A000000" />
+          <SolidColorBrush x:Key="EditorButtonBrush" Color="#0B000000" />
+          <SolidColorBrush x:Key="EditorButtonHoverBrush" Color="#14000000" />
+          <SolidColorBrush x:Key="EditorButtonPressedBrush" Color="#1C000000" />
+          <SolidColorBrush x:Key="EditorButtonBorderBrush" Color="#14000000" />
+          <SolidColorBrush x:Key="EditorSubpanelBrush" Color="#08000000" />
+          <SolidColorBrush x:Key="EditorChipBrush" Color="#10000000" />
+          <SolidColorBrush x:Key="EditorTextBrush" Color="#E6000000" />
+          <SolidColorBrush x:Key="EditorSecondaryTextBrush" Color="#99000000" />
+          <SolidColorBrush x:Key="EditorValueTextBrush" Color="#CC000000" />
+          <SolidColorBrush x:Key="EditorSectionTextBrush" Color="#8C000000" />
+        </ResourceDictionary>
+      </ResourceDictionary.ThemeDictionaries>
+    </ResourceDictionary>
+  </Styles.Resources>
+
+  <!-- Toolbar buttons: 30 tall, 12 medium, soft fill, hairline border, corner 8. -->
+  <Style Selector="Button.editor">
+    <Setter Property="MinHeight" Value="30" />
+    <Setter Property="Height" Value="30" />
+    <Setter Property="Padding" Value="10,0" />
+    <Setter Property="FontSize" Value="12" />
+    <Setter Property="FontWeight" Value="Medium" />
+    <Setter Property="CornerRadius" Value="8" />
+    <Setter Property="BorderThickness" Value="1" />
+    <Setter Property="VerticalContentAlignment" Value="Center" />
+    <Setter Property="Background" Value="{DynamicResource EditorButtonBrush}" />
+    <Setter Property="BorderBrush" Value="{DynamicResource EditorButtonBorderBrush}" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorTextBrush}" />
+  </Style>
+  <Style Selector="Button.editor:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="{DynamicResource EditorButtonHoverBrush}" />
+    <Setter Property="BorderBrush" Value="{DynamicResource EditorButtonBorderBrush}" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorTextBrush}" />
+  </Style>
+  <Style Selector="Button.editor:pressed /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="{DynamicResource EditorButtonPressedBrush}" />
+  </Style>
+  <Style Selector="Button.editor:disabled">
+    <Setter Property="Opacity" Value="0.4" />
+  </Style>
+  <Style Selector="Button.editor:disabled /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="{DynamicResource EditorButtonBrush}" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorTextBrush}" />
+  </Style>
+  <Style Selector="Button.editor.icon">
+    <Setter Property="Width" Value="30" />
+    <Setter Property="Padding" Value="0" />
+    <Setter Property="HorizontalContentAlignment" Value="Center" />
+  </Style>
+  <Style Selector="Button.editor.primary">
+    <Setter Property="Background" Value="{DynamicResource AccentBrush}" />
+    <Setter Property="BorderBrush" Value="Transparent" />
+    <Setter Property="Foreground" Value="White" />
+  </Style>
+  <Style Selector="Button.editor.primary:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="{DynamicResource AccentBrush}" />
+    <Setter Property="Foreground" Value="White" />
+    <Setter Property="Opacity" Value="0.9" />
+  </Style>
+  <Style Selector="Button.editor.danger">
+    <Setter Property="Foreground" Value="#FF453A" />
+  </Style>
+  <Style Selector="Button.editor.danger:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Foreground" Value="#FF453A" />
+  </Style>
+  <Style Selector="Button.editor.cut">
+    <Setter Property="Background" Value="#E5372D" />
+    <Setter Property="BorderBrush" Value="Transparent" />
+    <Setter Property="Foreground" Value="White" />
+  </Style>
+  <Style Selector="Button.editor.cut:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="#F0483E" />
+    <Setter Property="Foreground" Value="White" />
+  </Style>
+  <!-- Borderless transport controls (speed, quality). -->
+  <Style Selector="Button.plain">
+    <Setter Property="Background" Value="Transparent" />
+    <Setter Property="BorderThickness" Value="0" />
+    <Setter Property="Padding" Value="6,0" />
+    <Setter Property="MinHeight" Value="26" />
+    <Setter Property="FontSize" Value="12" />
+    <Setter Property="FontWeight" Value="Medium" />
+    <Setter Property="CornerRadius" Value="6" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorTextBrush}" />
+  </Style>
+  <Style Selector="Button.plain:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="{DynamicResource EditorButtonHoverBrush}" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorTextBrush}" />
+  </Style>
+  <Style Selector="Button.plain:disabled">
+    <Setter Property="Opacity" Value="0.4" />
+  </Style>
+  <Style Selector="Button.link">
+    <Setter Property="Background" Value="Transparent" />
+    <Setter Property="BorderThickness" Value="0" />
+    <Setter Property="Padding" Value="0" />
+    <Setter Property="MinHeight" Value="0" />
+    <Setter Property="FontSize" Value="12" />
+    <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
+  </Style>
+  <Style Selector="Button.link:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="Transparent" />
+    <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
+  </Style>
+
+  <!-- Inspector type -->
+  <Style Selector="TextBlock.inspectorSection">
+    <Setter Property="FontSize" Value="11" />
+    <Setter Property="FontWeight" Value="SemiBold" />
+    <Setter Property="LetterSpacing" Value="0.4" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorSectionTextBrush}" />
+  </Style>
+  <Style Selector="TextBlock.sliderTitle">
+    <Setter Property="FontSize" Value="11" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorSecondaryTextBrush}" />
+  </Style>
+  <Style Selector="TextBlock.sliderValue">
+    <Setter Property="FontSize" Value="11" />
+    <Setter Property="FontWeight" Value="Medium" />
+    <Setter Property="FontFamily" Value="Cascadia Mono, Consolas, Menlo, monospace" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorValueTextBrush}" />
+  </Style>
+  <Style Selector="TextBlock.caption">
+    <Setter Property="FontSize" Value="11.5" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorSecondaryTextBrush}" />
+    <Setter Property="TextWrapping" Value="Wrap" />
+  </Style>
+  <Style Selector="TextBlock.rowLabel">
+    <Setter Property="FontSize" Value="10" />
+    <Setter Property="FontWeight" Value="SemiBold" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorSecondaryTextBrush}" />
+    <Setter Property="HorizontalAlignment" Value="Right" />
+    <Setter Property="VerticalAlignment" Value="Center" />
+    <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+  </Style>
+
+  <!-- Segmented controls: a row of toggle buttons. -->
+  <Style Selector="ToggleButton.segment">
+    <Setter Property="MinHeight" Value="26" />
+    <Setter Property="Padding" Value="4,2" />
+    <Setter Property="FontSize" Value="11.5" />
+    <Setter Property="CornerRadius" Value="6" />
+    <Setter Property="HorizontalAlignment" Value="Stretch" />
+    <Setter Property="HorizontalContentAlignment" Value="Center" />
+    <Setter Property="Background" Value="Transparent" />
+    <Setter Property="BorderThickness" Value="0" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorTextBrush}" />
+  </Style>
+  <Style Selector="ToggleButton.segment:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="{DynamicResource EditorButtonHoverBrush}" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorTextBrush}" />
+  </Style>
+  <Style Selector="ToggleButton.segment:checked /template/ ContentPresenter#PART_ContentPresenter">
+    <Setter Property="Background" Value="{DynamicResource EditorChipBrush}" />
+    <Setter Property="Foreground" Value="{DynamicResource EditorTextBrush}" />
+  </Style>
+  <Style Selector="ToggleButton.segment:checked">
+    <Setter Property="FontWeight" Value="SemiBold" />
+  </Style>
+
+  <Style Selector="Slider.inspector">
+    <Setter Property="MinHeight" Value="24" />
+    <Setter Property="Margin" Value="0,-6,0,-6" />
+  </Style>
+  <Style Selector="ToggleSwitch.compact">
+    <Setter Property="OnContent" Value="" />
+    <Setter Property="OffContent" Value="" />
+    <Setter Property="MinWidth" Value="0" />
+    <Setter Property="Padding" Value="0" />
+    <Setter Property="HorizontalAlignment" Value="Right" />
+    <Setter Property="VerticalAlignment" Value="Center" />
+  </Style>
+</Styles>

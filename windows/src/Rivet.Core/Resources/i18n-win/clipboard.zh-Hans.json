@@ -1,0 +1,11 @@
+{
+  "win.clipboard.elevatedTarget": "无法在以管理员身份运行的 App 中输入。",
+  "win.clipboard.autoClearTitle": "自动清除",
+  "win.clipboard.browseApp": "选择程序…",
+  "clipboard.localNote": "一切都保留在这台电脑上。特别大的内容会被忽略。",
+  "clipboard.shortcutCaption": "打开快速窗口，支持搜索、固定项目，以及用 Ctrl+1 到 Ctrl+9 粘贴到上一个 App。",
+  "clipboard.shortcutHint": "点击卡片即可粘贴到上一个 App。按住 Ctrl 点击可选择多项；Ctrl+C 仅复制不粘贴。",
+  "clipboard.commandClickShortcut": "Ctrl+点击",
+  "Strings.urlCleanerLocalNote": "本地处理。无网络。",
+  "clipboard.autoClearOnSleep": "睡眠时清空剪贴板"
+}

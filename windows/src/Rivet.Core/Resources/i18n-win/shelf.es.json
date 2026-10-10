@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "Mantener los archivos arrastrados cerca del icono del área de notificación",
+  "Strings.shelfDockMenuBar": "Cerca del icono del área de notificación",
+  "win.shelf.dockTray": "Cerca del icono del área de notificación",
+  "win.shelf.dropZoneToggle": "Mantener los archivos arrastrados cerca del icono del área de notificación",
+  "win.shelf.dropZoneCaption": "Mientras arrastras un archivo, aparece un pequeño estante cerca del icono del área de notificación (o arriba en el centro). Pasa el puntero por encima para abrir el estante; lo que sueltes se queda ahí como una píldora con un contador.",
+  "win.shelf.shakeCaption": "Agita el puntero rápidamente de un lado a otro mientras arrastras algo para que el estante aparezca cerca del cursor.",
+  "win.shelf.explorerSelection": "Añadir la selección del Explorador de archivos con el atajo",
+  "win.shelf.explorerSelectionCaption": "Con el Explorador de archivos al frente, el atajo abre el estante con los archivos seleccionados ya dentro. Sin selección, se abre como siempre.",
+  "win.shelf.triggersTitle": "Formas de abrirlo",
+  "win.shelf.exclusionsCaption": "Agitar, la zona para soltar y el asomo en el borde de la pantalla no se activan en arrastres iniciados en estas apps. El atajo y Abrir ahora siguen funcionando.",
+  "win.shelf.addApp": "Añadir app…",
+  "win.shelf.applications": "Aplicaciones",
+  "win.shelf.showInExplorer": "Mostrar en el Explorador de archivos",
+  "win.shelf.expandPile": "Expandir",
+  "win.shelf.collapsePile": "Contraer"
+}

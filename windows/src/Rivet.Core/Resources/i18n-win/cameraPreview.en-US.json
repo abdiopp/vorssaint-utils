@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Camera access is turned off in Windows privacy settings.",
+  "win.cameraPreview.openPrivacySettings": "Open privacy settings…",
+  "win.cameraPreview.unavailableMessage": "The camera could not start. Try opening it again.",
+  "win.cameraPreview.retry": "Open camera",
+  "win.cameraPreview.permissionRequired": "Permission required: Camera",
+  "win.cameraPreview.notGranted": "Not granted. Turn on “Camera access” and “Let desktop apps access your camera” in Windows Settings.",
+  "win.cameraPreview.chooseCamera": "Choose camera",
+  "win.cameraPreview.shortcutToggle": "Global shortcut",
+  "win.cameraPreview.privacyTitle": "Nothing is recorded",
+  "win.cameraPreview.privacyCaption": "The camera runs only while the preview is open, and nothing is saved or sent anywhere.",
+  "win.cameraPreview.dismissTitle": "Closing the preview",
+  "win.cameraPreview.dismissCaption": "Press Esc, click anywhere else or switch to another app. The camera light turns off at once."
+}

@@ -1,0 +1,13 @@
+{
+  "Strings.cleaningPanelCaption": "鎖定鍵盤，便於安全清潔。",
+  "Strings.cleaningOverlayMouseHint": "你的滑鼠和觸控板仍可使用",
+  "win.cleaningMode.overlaySubtitle": "按下 Esc 鍵 5 次以解鎖",
+  "win.cleaningMode.mouseHint": "你的滑鼠和觸控板仍可使用",
+  "win.cleaningMode.unlockCaption": "每次按鍵都必須在上一次按鍵後的 6 秒內完成。按下其他任何鍵都會重新計算。你也可以按一下「解鎖」。",
+  "win.cleaningMode.limitsTitle": "Windows 始終不允許 App 封鎖的按鍵",
+  "win.cleaningMode.limits": "Ctrl+Alt+Del 和 Win+L 仍然有效，由韌體處理的部分筆記型電腦按鍵（亮度、電源）也是如此。對以系統管理員身分執行的 App 輸入的內容可能不會被封鎖。",
+  "win.cleaningMode.howTitle": "運作方式",
+  "win.cleaningMode.couldNotLock": "無法鎖定鍵盤。",
+  "win.cleaningMode.endedNotResponding": "由於 App 停止回應，清潔模式已結束。",
+  "win.cleaningMode.endedHooksLost": "由於 Windows 不再向 App 傳送鍵盤事件，清潔模式已結束。"
+}

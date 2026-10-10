@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Enter 입력 · Esc 닫기",
+  "snippets.enableCaption": "어디에서나 트리거를 입력하면 해당 텍스트로 바뀝니다. 모든 내용은 이 PC에만 남습니다.",
+  "snippets.dateTimeStyleLocaleNote": "이름이 있는 형식은 PC의 지역 표기를 지금 그대로 저장합니다.",
+  "win.snippets.limitsNote": "스니펫은 암호 필드에서는 확장되지 않으며, 관리자 권한으로 실행 중인 앱에는 입력할 수 없습니다."
+}

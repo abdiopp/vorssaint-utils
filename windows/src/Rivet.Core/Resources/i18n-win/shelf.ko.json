@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "드래그한 파일을 트레이 아이콘 근처에 보관",
+  "Strings.shelfDockMenuBar": "트레이 아이콘 근처",
+  "win.shelf.dockTray": "트레이 아이콘 근처",
+  "win.shelf.dropZoneToggle": "드래그한 파일을 트레이 아이콘 근처에 보관",
+  "win.shelf.dropZoneCaption": "파일을 드래그하는 동안 트레이 아이콘 근처(또는 화면 위쪽 가운데)에 작은 선반이 나타납니다. 포인터를 올리면 선반이 열리고, 놓은 항목은 개수가 표시된 알약 모양으로 그곳에 남습니다.",
+  "win.shelf.shakeCaption": "무언가를 드래그하는 동안 포인터를 좌우로 빠르게 흔들면 커서 근처에 선반을 불러올 수 있습니다.",
+  "win.shelf.explorerSelection": "단축키로 파일 탐색기 선택 항목 추가",
+  "win.shelf.explorerSelectionCaption": "파일 탐색기가 맨 앞에 있을 때 단축키를 누르면 선택한 파일이 이미 담긴 상태로 선반이 열립니다. 선택한 항목이 없으면 평소처럼 열립니다.",
+  "win.shelf.triggersTitle": "여는 방법",
+  "win.shelf.exclusionsCaption": "이 앱에서 시작한 드래그에서는 흔들기, 드롭 영역, 화면 가장자리 미리 보기가 작동하지 않습니다. 단축키와 지금 열기는 계속 사용할 수 있습니다.",
+  "win.shelf.addApp": "앱 추가…",
+  "win.shelf.applications": "앱",
+  "win.shelf.showInExplorer": "파일 탐색기에서 보기",
+  "win.shelf.expandPile": "펼치기",
+  "win.shelf.collapsePile": "접기"
+}

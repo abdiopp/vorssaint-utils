@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "Sonido del sistema",
+  "win.recordingEditor.showInFolder": "Mostrar en la carpeta",
+  "win.recordingEditor.saveTo": "Guardar en…",
+  "win.recordingEditor.mp4Unavailable": "Para guardar vídeo se necesita Windows Media Foundation, que este PC no tiene (en las ediciones N de Windows, instala el Media Feature Pack). Aun así puedes guardar un GIF.",
+  "win.recordingEditor.openFailed": "Esta grabación no se puede reproducir en este PC. Guardar conserva el archivo de vídeo original para que puedas abrirlo en otro sitio.",
+  "win.recordingEditor.openSample": "Abrir una grabación de ejemplo en el editor",
+  "win.recordingEditor.videoFilter": "Vídeo MPEG-4",
+  "win.recordingEditor.imageFilter": "Imágenes",
+  "recorderExport.previewNote": "Se aplica al vídeo y al GIF guardados y copiados. La vista previa sigue a 1×; la grabación original no cambia."
+}

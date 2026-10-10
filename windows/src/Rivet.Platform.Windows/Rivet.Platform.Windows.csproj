@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Win32 / WinRT / Media Foundation / WASAPI implementations of the Core
+       platform interfaces. Builds on macOS too (EnableWindowsTargeting), so
+       compile errors surface without a Windows machine. -->
+  <PropertyGroup>
+    <TargetFramework>$(WindowsTargetFramework)</TargetFramework>
+    <SupportedOSPlatformVersion>$(WindowsMinimumVersion)</SupportedOSPlatformVersion>
+    <RootNamespace>Rivet.Platform.Windows</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- x64 and ARM64 share struct layouts; x86 is not supported. -->
+    <CsWin32PlatformTarget Condition="'$(RuntimeIdentifier)' == 'win-arm64'">arm64</CsWin32PlatformTarget>
+    <CsWin32PlatformTarget Condition="'$(CsWin32PlatformTarget)' == ''">x64</CsWin32PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.CsWin32" PrivateAssets="all" />
+    <PackageReference Include="Vortice.Direct3D11" />
+    <PackageReference Include="Vortice.DXGI" />
+    <PackageReference Include="Vortice.MediaFoundation" />
+    <!-- CPU and GPU sensors (MPL-2.0). It reads the vendor GPU interfaces
+         directly and the CPU's own sensors through the PawnIO driver when the
+         user has installed it; it ships no driver itself. -->
+    <PackageReference Include="LibreHardwareMonitorLib" />
+    <PackageReference Include="NAudio.Core" />
+    <PackageReference Include="NAudio.Wasapi" />
+    <PackageReference Include="SkiaSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Each module folder keeps its own NativeMethods.txt; CsWin32 reads them all. -->
+    <AdditionalFiles Include="**/NativeMethods.txt" Exclude="bin/**;obj/**" />
+    <AdditionalFiles Include="NativeMethods.json" Condition="Exists('NativeMethods.json')" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rivet.Core\Rivet.Core.csproj" />
+    <ProjectReference Include="..\Rivet.Imaging\Rivet.Imaging.csproj" />
+  </ItemGroup>
+</Project>

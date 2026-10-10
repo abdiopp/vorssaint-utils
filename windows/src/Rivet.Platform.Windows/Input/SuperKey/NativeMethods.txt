@@ -1,0 +1,21 @@
+// Super key, key debounce and running-app checks (input fixes).
+GetForegroundWindow
+GetWindowThreadProcessId
+OpenProcess
+QueryFullProcessImageName
+CloseHandle
+CreateToolhelp32Snapshot
+Process32FirstW
+Process32NextW
+PROCESSENTRY32W
+CREATE_TOOLHELP_SNAPSHOT_FLAGS
+PROCESS_ACCESS_RIGHTS
+PROCESS_NAME_FORMAT
+SystemParametersInfo
+SYSTEM_PARAMETERS_INFO_ACTION
+GetKeyState
+GetKeyboardLayout
+GetKeyboardLayoutList
+MapVirtualKeyEx
+PostMessage
+WM_INPUTLANGCHANGEREQUEST

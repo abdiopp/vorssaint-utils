@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "Garder les fichiers glissés près de l’icône de la zone de notification",
+  "Strings.shelfDockMenuBar": "Près de l’icône de la zone de notification",
+  "win.shelf.dockTray": "Près de l’icône de la zone de notification",
+  "win.shelf.dropZoneToggle": "Garder les fichiers glissés près de l’icône de la zone de notification",
+  "win.shelf.dropZoneCaption": "Pendant que vous faites glisser un fichier, une petite étagère apparaît près de l’icône de la zone de notification (ou en haut au centre). Survolez-la pour ouvrir l’étagère ; ce que vous déposez y reste sous forme de pastille avec un compteur.",
+  "win.shelf.shakeCaption": "Secouez rapidement le pointeur de gauche à droite pendant un glissement pour faire apparaître l’étagère près du curseur.",
+  "win.shelf.explorerSelection": "Ajouter la sélection de l’Explorateur de fichiers avec le raccourci",
+  "win.shelf.explorerSelectionCaption": "Quand l’Explorateur de fichiers est au premier plan, le raccourci ouvre l’étagère avec les fichiers sélectionnés déjà dedans. Sans sélection, elle s’ouvre comme d’habitude.",
+  "win.shelf.triggersTitle": "Façons d’ouvrir",
+  "win.shelf.exclusionsCaption": "La secousse, la zone de dépôt et l’aperçu au bord de l’écran restent inactifs pour les glissements commencés dans ces apps. Le raccourci et Ouvrir maintenant restent disponibles.",
+  "win.shelf.addApp": "Ajouter une app…",
+  "win.shelf.applications": "Applications",
+  "win.shelf.showInExplorer": "Afficher dans l’Explorateur de fichiers",
+  "win.shelf.expandPile": "Développer",
+  "win.shelf.collapsePile": "Réduire"
+}

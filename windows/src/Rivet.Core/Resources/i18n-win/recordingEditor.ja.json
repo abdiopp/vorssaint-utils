@@ -1,0 +1,11 @@
+{
+  "recorder.systemAudioTrackLabel": "システムの音",
+  "win.recordingEditor.showInFolder": "フォルダーに表示",
+  "win.recordingEditor.saveTo": "保存先…",
+  "win.recordingEditor.mp4Unavailable": "動画の保存には Windows Media Foundation が必要ですが、この PC にはありません（Windows N エディションでは Media Feature Pack をインストールしてください）。GIF としては保存できます。",
+  "win.recordingEditor.openFailed": "この録画はこの PC では再生できません。[保存] を使うと元の動画ファイルが保持されるので、別の環境で開けます。",
+  "win.recordingEditor.openSample": "サンプルの録画をエディターで開く",
+  "win.recordingEditor.videoFilter": "MPEG-4 ビデオ",
+  "win.recordingEditor.imageFilter": "画像",
+  "recorderExport.previewNote": "保存およびコピーした動画と GIF に適用されます。編集プレビューは1×のままで、元の録画は変更されません。"
+}

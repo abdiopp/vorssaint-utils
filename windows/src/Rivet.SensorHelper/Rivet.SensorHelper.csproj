@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    The elevated sensor helper: a small process that Task Scheduler runs as
+    SYSTEM so the app itself can stay a standard-user app. It reads the
+    processor's own temperature sensors through LibreHardwareMonitorLib (and
+    the PawnIO driver the user installed) and serves them over a named pipe.
+    It ships next to the app and shares its .NET runtime; "install" copies
+    its files to Program Files, where only administrators can change them.
+    Keep it small: it references nothing else from this repository.
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>Rivet.SensorHelper</RootNamespace>
+    <AssemblyName>$(ProductId).SensorHelper</AssemblyName>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LibreHardwareMonitorLib" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The wire format is shared with the app as source, not as a reference. -->
+    <Compile Include="..\Rivet.Core\SystemMonitor\SensorHelperProtocol.cs" Link="SensorHelperProtocol.cs" />
+  </ItemGroup>
+</Project>

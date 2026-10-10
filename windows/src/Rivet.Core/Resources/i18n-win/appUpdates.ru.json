@@ -1,0 +1,20 @@
+{
+  "appUpdates.caption": "Ищет новые версии приложений на этом компьютере и помогает завершить каждое обновление из его исходного источника.",
+  "appUpdates.coverageNote": "Проверяет каталог winget, Microsoft Store и каналы обновлений приложений, которые их публикуют. Обновления устанавливаются из исходного источника.",
+  "appUpdates.homebrewBadge": "winget",
+  "appUpdates.appStoreBadge": "Store",
+  "appUpdates.includeHomebrewToggle": "Включать приложения, которые может обновить winget",
+  "appUpdates.includeStoreToggle": "Включать приложения из Microsoft Store",
+  "appUpdates.includeStoreCaption": "Проверяет версии в Store через winget с учётом региона этого компьютера. Эти обновления устанавливает Microsoft Store.",
+  "appUpdates.includeOnlineCaption": "Проверяет каналы обновлений приложений, которые их публикуют, например многих приложений на Electron. Обновление устанавливает само приложение.",
+  "appUpdates.openAppStore": "Открыть Microsoft Store",
+  "appUpdates.storeHint": "Открывает Microsoft Store, где устанавливается это обновление",
+  "appUpdates.packageMissing": "winget не установлен, поэтому обновлять приложения отсюда пока нельзя.",
+  "win.appUpdates.includeWingetCaption": "Проверяет все приложения, которые распознаёт winget, в том числе установленные не через него. Эти обновления winget устанавливает здесь; некоторые запрашивают подтверждение администратора.",
+  "win.appUpdates.lastSource": "Хотя бы один источник должен оставаться включённым.",
+  "win.appUpdates.notificationsOff": "Уведомления для этого приложения выключены в Windows.",
+  "win.appUpdates.confirmTitle": "Обновить выбранные приложения?",
+  "win.appUpdates.confirmPackagesFormat": "winget скачает и установит последние версии приложений (%d) одно за другим. Продолжая, вы принимаете их лицензионные соглашения.",
+  "win.appUpdates.confirmStoreNote": "Приложения из Microsoft Store откроются в Store, который и установит их обновления.",
+  "win.appUpdates.idUnresolved": "winget сократил идентификатор этого приложения. Обновите его через менеджер пакетов."
+}

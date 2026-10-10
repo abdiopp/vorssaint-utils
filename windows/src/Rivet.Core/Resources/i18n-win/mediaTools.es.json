@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "Este formato no es compatible con este PC.",
+  "win.mediaTools.unsupported": "Este formato no es compatible con este PC.",
+  "win.mediaTools.videoUnavailable": "La codificación de vídeo no está disponible. Falta Windows Media Foundation (en las ediciones N de Windows, instala el Media Feature Pack).",
+  "win.mediaTools.frameUnavailable": "Fotograma de vídeo no disponible.",
+  "win.mediaTools.ocrUnavailable": "El reconocimiento de texto no está disponible. Agrega un idioma con reconocimiento óptico de caracteres en Configuración de Windows › Hora e idioma › Idioma y región.",
+  "win.mediaTools.heicMissing": "Para guardar en HEIC se necesitan las Extensiones de imagen HEIF de Microsoft Store. Elige otro formato o instala la extensión.",
+  "win.mediaTools.heicHint": "HEIC aparece aquí cuando se instalan las Extensiones de imagen HEIF de Microsoft Store.",
+  "win.mediaTools.notEnoughSpace": "No hay suficiente espacio libre en disco para abrir el clip en el editor (deben quedar libres 500 MB).",
+  "win.mediaTools.textFile": "Archivo de texto",
+  "win.mediaTools.insertToken": "Insertar un marcador de nombre",
+  "win.mediaTools.previewOutputFormat": "Salida: %@",
+  "Strings.mediaOpenInFinder": "Mostrar"
+}

@@ -1,0 +1,4 @@
+// Scratchpad (and camera preview): what is under the pointer.
+WindowFromPoint
+GetAncestor
+GetClassName

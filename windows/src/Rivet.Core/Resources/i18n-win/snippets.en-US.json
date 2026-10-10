@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Enter inserts · Esc closes",
+  "snippets.enableCaption": "Type a trigger anywhere and it becomes its text. Everything stays on this PC.",
+  "snippets.dateTimeStyleLocaleNote": "A named style saves the format your PC’s region uses right now.",
+  "win.snippets.limitsNote": "Snippets never expand in password fields, and can't reach apps running as administrator."
+}

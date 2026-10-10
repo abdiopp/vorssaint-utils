@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "Bu biçim bu PC’de desteklenmiyor.",
+  "win.mediaTools.unsupported": "Bu biçim bu PC’de desteklenmiyor.",
+  "win.mediaTools.videoUnavailable": "Video kodlama kullanılamıyor. Windows Media Foundation eksik (Windows N sürümlerinde Media Feature Pack’i yükle).",
+  "win.mediaTools.frameUnavailable": "Video karesi kullanılamıyor.",
+  "win.mediaTools.ocrUnavailable": "Metin tanıma kullanılamıyor. Windows Ayarlar › Saat ve dil › Dil ve bölge bölümünden optik karakter tanıma içeren bir dil ekle.",
+  "win.mediaTools.heicMissing": "HEIC olarak kaydetmek için Microsoft Store’daki HEIF Görüntü Uzantıları gerekir. Başka bir biçim seç veya uzantıyı yükle.",
+  "win.mediaTools.heicHint": "Microsoft Store’daki HEIF Görüntü Uzantıları yüklendiğinde HEIC burada görünür.",
+  "win.mediaTools.notEnoughSpace": "Klibi düzenleyicide açmak için yeterli boş disk alanı yok (500 MB boş kalmalı).",
+  "win.mediaTools.textFile": "Metin dosyası",
+  "win.mediaTools.insertToken": "Ad belirteci ekle",
+  "win.mediaTools.previewOutputFormat": "Çıktı: %@",
+  "Strings.mediaOpenInFinder": "Göster"
+}

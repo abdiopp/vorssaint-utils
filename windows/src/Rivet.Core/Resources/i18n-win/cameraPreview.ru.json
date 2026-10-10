@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "Доступ к камере отключён в параметрах конфиденциальности Windows.",
+  "win.cameraPreview.openPrivacySettings": "Открыть параметры конфиденциальности…",
+  "win.cameraPreview.unavailableMessage": "Не удалось запустить камеру. Попробуйте открыть её снова.",
+  "win.cameraPreview.retry": "Открыть камеру",
+  "win.cameraPreview.permissionRequired": "Требуется разрешение: камера",
+  "win.cameraPreview.notGranted": "Не предоставлено. Включите «Доступ к камере» и «Разрешить классическим приложениям доступ к камере» в Параметрах Windows.",
+  "win.cameraPreview.chooseCamera": "Выбрать камеру",
+  "win.cameraPreview.shortcutToggle": "Глобальное сочетание клавиш",
+  "win.cameraPreview.privacyTitle": "Ничего не записывается",
+  "win.cameraPreview.privacyCaption": "Камера работает, только пока открыт предпросмотр, и ничего не сохраняется и никуда не отправляется.",
+  "win.cameraPreview.dismissTitle": "Закрытие предпросмотра",
+  "win.cameraPreview.dismissCaption": "Нажмите Esc, щёлкните в любом другом месте или переключитесь на другое приложение. Индикатор камеры сразу погаснет."
+}

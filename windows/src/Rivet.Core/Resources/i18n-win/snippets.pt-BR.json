@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Enter insere · Esc fecha",
+  "snippets.enableCaption": "Digite um gatilho em qualquer lugar e ele vira o texto dele. Tudo fica neste PC.",
+  "snippets.dateTimeStyleLocaleNote": "Um estilo nomeado salva o formato que a região do seu PC usa agora.",
+  "win.snippets.limitsNote": "Os snippets nunca se expandem em campos de senha e não alcançam apps executados como administrador."
+}

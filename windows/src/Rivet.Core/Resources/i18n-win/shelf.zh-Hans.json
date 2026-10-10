@@ -1,0 +1,17 @@
+{
+  "Strings.shelfDropZoneToggle": "将拖动的文件保留在托盘图标附近",
+  "Strings.shelfDockMenuBar": "托盘图标附近",
+  "win.shelf.dockTray": "托盘图标附近",
+  "win.shelf.dropZoneToggle": "将拖动的文件保留在托盘图标附近",
+  "win.shelf.dropZoneCaption": "拖动文件时，托盘图标附近（或屏幕顶部居中）会出现一个小暂存架。将指针悬停在上面即可打开暂存架；放下的内容会以带数量的胶囊形式留在那里。",
+  "win.shelf.shakeCaption": "拖动内容时左右快速晃动指针，即可在光标附近呼出暂存架。",
+  "win.shelf.explorerSelection": "使用快捷键添加文件资源管理器中的所选项",
+  "win.shelf.explorerSelectionCaption": "文件资源管理器位于前台时，快捷键会打开暂存架并放入所选文件。未选择任何内容时照常打开。",
+  "win.shelf.triggersTitle": "打开方式",
+  "win.shelf.exclusionsCaption": "从这些 App 开始拖动时，晃动、放置区域和屏幕边缘探出都不会生效。快捷键和“立即打开”仍可使用。",
+  "win.shelf.addApp": "添加 App…",
+  "win.shelf.applications": "App",
+  "win.shelf.showInExplorer": "在文件资源管理器中显示",
+  "win.shelf.expandPile": "展开",
+  "win.shelf.collapsePile": "收起"
+}

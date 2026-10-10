@@ -1,0 +1,15 @@
+{
+  "portManager.listeningCaption": "この PC の待ち受けポート",
+  "killProcess.groupCaption": "ブラウザーのタブなどのヘルパープロセスを、それらを起動した同じプログラムのインスタンスの下にまとめます。",
+  "win.processes.moreActions": "その他の操作",
+  "win.processes.protected": "このプロセスは Windows に必要です。ここから終了することはできません。",
+  "win.processes.noWindowsNote": "このプロセスには閉じるウィンドウがないため、すぐに終了されます。保存されていない作業は失われます。",
+  "win.processes.confirmRestartFormat": "%@ を再起動しますか?",
+  "win.processes.accessDeniedFormat": "“%@” は管理者または別のユーザーとして実行されているため、Windows によって終了が許可されませんでした。終了するには、このアプリを管理者として再起動してください。",
+  "win.processes.relaunchFailedFormat": "%@ は終了しましたが、再起動できませんでした。",
+  "win.processes.adminTitle": "管理者と他のユーザーのプロセス",
+  "win.processes.adminNote": "これらは、このアプリを管理者として実行している場合にのみ終了できます。",
+  "win.processes.openInBrowser": "ブラウザーで開く",
+  "win.processes.showUdp": "UDP ソケットを表示",
+  "win.processes.showUdpCaption": "UDP には待ち受け状態がないため、開いているすべての UDP ソケットが一覧表示されます。"
+}

@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "この形式はこの PC ではサポートされていません。",
+  "win.mediaTools.unsupported": "この形式はこの PC ではサポートされていません。",
+  "win.mediaTools.videoUnavailable": "動画のエンコードを利用できません。Windows Media Foundation がありません（Windows N エディションでは Media Feature Pack をインストールしてください）。",
+  "win.mediaTools.frameUnavailable": "動画のフレームを取得できません。",
+  "win.mediaTools.ocrUnavailable": "テキスト認識を利用できません。Windows の設定 › 時刻と言語 › 言語と地域 で、「光学式文字認識」を含む言語を追加してください。",
+  "win.mediaTools.heicMissing": "HEIC で保存するには、Microsoft Store の「HEIF 画像拡張機能」が必要です。別の形式を選ぶか、拡張機能をインストールしてください。",
+  "win.mediaTools.heicHint": "Microsoft Store の「HEIF 画像拡張機能」をインストールすると、ここに HEIC が表示されます。",
+  "win.mediaTools.notEnoughSpace": "ディスクの空き容量が不足しているため、クリップをエディターで開けません（500 MB の空きを残す必要があります）。",
+  "win.mediaTools.textFile": "テキスト ファイル",
+  "win.mediaTools.insertToken": "名前トークンを挿入",
+  "win.mediaTools.previewOutputFormat": "出力: %@",
+  "Strings.mediaOpenInFinder": "表示"
+}

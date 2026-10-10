@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Rivet.Core/Rivet.Core.csproj" />
+    <Project Path="src/Rivet.Imaging/Rivet.Imaging.csproj" />
+    <Project Path="src/Rivet.Platform.Windows/Rivet.Platform.Windows.csproj" />
+    <Project Path="src/Rivet.Platform.Fake/Rivet.Platform.Fake.csproj" />
+    <Project Path="src/Rivet.SensorHelper/Rivet.SensorHelper.csproj" />
+    <Project Path="src/Rivet.App/Rivet.App.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Rivet.Core.Tests/Rivet.Core.Tests.csproj" />
+    <Project Path="tests/Rivet.Imaging.Tests/Rivet.Imaging.Tests.csproj" />
+    <Project Path="tests/Rivet.App.Tests/Rivet.App.Tests.csproj" />
+  </Folder>
+</Solution>

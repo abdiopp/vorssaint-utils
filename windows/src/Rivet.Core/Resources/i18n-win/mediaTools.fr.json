@@ -1,0 +1,14 @@
+{
+  "Strings.mediaErrorUnsupported": "Ce format n’est pas pris en charge sur ce PC.",
+  "win.mediaTools.unsupported": "Ce format n’est pas pris en charge sur ce PC.",
+  "win.mediaTools.videoUnavailable": "L’encodage vidéo n’est pas disponible. Windows Media Foundation est absent (sur les éditions N de Windows, installez le Media Feature Pack).",
+  "win.mediaTools.frameUnavailable": "Image vidéo indisponible.",
+  "win.mediaTools.ocrUnavailable": "La reconnaissance de texte n’est pas disponible. Ajoutez une langue avec la reconnaissance optique de caractères dans Paramètres Windows › Heure et langue › Langue et région.",
+  "win.mediaTools.heicMissing": "L’enregistrement en HEIC nécessite les Extensions d’image HEIF du Microsoft Store. Choisissez un autre format ou installez l’extension.",
+  "win.mediaTools.heicHint": "HEIC apparaît ici une fois les Extensions d’image HEIF du Microsoft Store installées.",
+  "win.mediaTools.notEnoughSpace": "Espace disque insuffisant pour ouvrir le clip dans l’éditeur (500 Mo doivent rester libres).",
+  "win.mediaTools.textFile": "Fichier texte",
+  "win.mediaTools.insertToken": "Insérer un jeton de nom",
+  "win.mediaTools.previewOutputFormat": "Sortie : %@",
+  "Strings.mediaOpenInFinder": "Afficher"
+}

@@ -1,0 +1,6 @@
+{
+  "snippets.libraryFooterHint": "Enter 入力 · Esc 閉じる",
+  "snippets.enableCaption": "どこでもトリガーを入力すると、その本文に変わります。すべてこの PC の中だけで完結します。",
+  "snippets.dateTimeStyleLocaleNote": "名前付きの形式は、PC の地域の表記をそのまま保存します。",
+  "win.snippets.limitsNote": "スニペットはパスワード欄では展開されず、管理者として実行中のアプリには入力できません。"
+}

@@ -1,0 +1,14 @@
+{
+  "win.cameraPreview.deniedMessage": "O acesso à câmera está desativado nas configurações de privacidade do Windows.",
+  "win.cameraPreview.openPrivacySettings": "Abrir configurações de privacidade…",
+  "win.cameraPreview.unavailableMessage": "Não foi possível iniciar a câmera. Tente abri-la novamente.",
+  "win.cameraPreview.retry": "Abrir câmera",
+  "win.cameraPreview.permissionRequired": "Permissão necessária: Câmera",
+  "win.cameraPreview.notGranted": "Não concedida. Ative “Acesso à câmera” e “Permitir que aplicativos da área de trabalho acessem sua câmera” nas Configurações do Windows.",
+  "win.cameraPreview.chooseCamera": "Escolher câmera",
+  "win.cameraPreview.shortcutToggle": "Atalho global",
+  "win.cameraPreview.privacyTitle": "Nada é gravado",
+  "win.cameraPreview.privacyCaption": "A câmera só funciona enquanto a prévia está aberta, e nada é salvo nem enviado a lugar nenhum.",
+  "win.cameraPreview.dismissTitle": "Fechar a prévia",
+  "win.cameraPreview.dismissCaption": "Pressione Esc, clique em qualquer outro lugar ou mude para outro app. A luz da câmera apaga na hora."
+}
